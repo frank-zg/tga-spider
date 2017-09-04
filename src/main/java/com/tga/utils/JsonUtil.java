@@ -2,8 +2,7 @@ package com.tga.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.*;
 
 import java.io.IOException;
 
@@ -15,6 +14,10 @@ import java.io.IOException;
 public class JsonUtil {
 
     private static final ObjectMapper JSON_MAPPER = new ObjectMapper();
+
+    static {
+        JSON_MAPPER.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+    }
 
 
     /**

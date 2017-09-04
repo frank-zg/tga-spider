@@ -2,8 +2,7 @@ package com.tga;
 
 import com.tga.utils.*;
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -22,13 +21,15 @@ public class TgaSampleV1 {
             System.out.println("check auth fail, please call manager!!!");
             return;
         }
+        ScheduledExecutorService schedulerService = Executors.newScheduledThreadPool(1);
+        schedulerService.scheduleAtFixedRate(new ProxyIpRepository.IpThread(), 1, 5 * 60, TimeUnit.SECONDS);
 
         ExecutorService executorService = Executors.newFixedThreadPool(PropertyUtil.getInt("thread.max"));
         //String uri = PropertyUtil.getString("tga.uri");
         String uri = "http://tga.qq.com/match/2017/pc_game.html?game=hyrz";
         String videoUri = PropertyUtil.getString("video.uri");
         videoUri = videoUri.substring(0, videoUri.indexOf("time") + 5) + System.currentTimeMillis() / 1000 +
-                videoUri.substring(videoUri.indexOf("time") + 15, videoUri.length()- 1);
+                videoUri.substring(videoUri.indexOf("time") + 15, videoUri.length() - 1);
 
         double videoTime = PropertyUtil.getDouble("video.time.length") * 6.0;
         long startTime = System.currentTimeMillis();
@@ -39,6 +40,7 @@ public class TgaSampleV1 {
 
         Thread.sleep(1000 * 60 * PropertyUtil.getInt("total.run.time"));
         executorService.shutdownNow();
+        schedulerService.shutdownNow();
         long consumeTime = System.currentTimeMillis() - startTime;
         System.out.println("time:" + consumeTime);
         System.out.println("autoIndex:" + autoIndex.get());
