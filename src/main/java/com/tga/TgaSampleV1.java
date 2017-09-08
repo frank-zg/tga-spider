@@ -32,6 +32,10 @@ public class TgaSampleV1 {
         for (int i = 0; i < PropertyUtil.getInt("task.max"); i++) {
             executorService.execute(new Play(uri, videoUri, videoTime, videoDownSize, httpTimeout, exceptionStatus,
                     autoIndex));
+            //控制放量,缓冲坡度
+            if (i != 0 && i % 200 == 0) {
+                Thread.sleep(20 * 1000);
+            }
         }
 
         Thread.sleep(1000 * 60 * PropertyUtil.getInt("total.run.time"));

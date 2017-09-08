@@ -219,26 +219,6 @@ public class Play implements Runnable {
         Thread.sleep(2 * 1000);
     }
 
-    public void flashStream() {
-        Map<String, String> headers = new HashMap<>();
-        headers.put("Accept", "*/*");
-        headers.put("Accept-Encoding", "gzip, deflate");
-        headers.put("Accept-Language", "zh-CN,zh;q=0.8,en;q=0.6");
-        headers.put("Connection", "keep-alive");
-        headers.put("Cookie", "eas_sid=i1k4S7j7d7T0Z1n8l9c1x4p4k7; tvfe_boss_uuid=99daa20cfcb950ce; pac_uid=1_125826029; ptcz=2073df33296f910c4ebe6386dae0f389046bbcf92fca13397de446872d9c57a3; pt2gguin=o0125826029; pgv_pvi=3250939904; pgv_info=ssid=s4418331160; pgv_pvid=7924958374; o_cookie=125826029");
-        headers.put("Host", "112.90.167.8080");
-        headers.put("Origin", "http://imgcache.qq.com");
-        headers.put("Referer", uri_index);
-        headers.put("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36");
-        headers.put("X-Requested-With", "ShockwaveFlash/26.0.0.151");
-        HttpUtil.get("http://112.90.53.167:8080/FAB0FC75C2CBB6F0FD01CC3CD5DD86D8B118E1223D547D071D9B1BD14E7046850699ADC06E6BD3DB6AC4E456DB26A1DEDC9613086" +
-                        "8DCA0B7F73799B2F16218AC51D75D1933CB9611A60CAE23566E48CEB6E6DAB8B479ABA9/124208501.flv?cdncode=%2f18907E7BE0798990%2f&time" +
-                        "=" + System.currentTimeMillis() / 1000 + "&cdn=zijian&sdtfrom=v210221&platform=70202&butype=21&scheduleflag=1&buname=qqlive&vkey" +
-                        "=FAB0FC75C2CBB6F0FD01CC3CD5DD86D8B118E1223" +
-                        "D547D071D9B1BD14E7046850699ADC06E6BD3DB6AC4E456DB26A1DEDC96130868DCA0B7F73799B2F16218AC51D75D1933CB9611A60CAE23566E48CEB6E6DAB8B47" +
-                        "9ABA9&guid=4622487A6699E4F92E2A083A12D25E5899B7CE21&refer=http%3A%2F%2Ftga.qq.com%2Fmatch%2F2017%2Fpc_index.html&apptype=live",
-                headers, exceptionStatus, timeout);
-    }
 
     public void kvGetCommon(String uri) {
         Map<String, String> headers = new HashMap<>();
