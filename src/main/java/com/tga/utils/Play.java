@@ -37,7 +37,15 @@ public class Play implements Runnable {
         this.timeout = timeout;
     }
 
+
     @Override
+    public void run() {
+        autoIndex.incrementAndGet();
+        System.out.println(autoIndex.get());
+        indexPage();
+    }
+
+    /*@Override
     public void run() {
         autoIndex.incrementAndGet();
         System.out.println(autoIndex.get());
@@ -217,19 +225,19 @@ public class Play implements Runnable {
             stream.stop();
         }
 //        });
-    }
+    }*/
 
     public void indexPage() {
         Map<String, String> headers1 = new HashMap<>();
-        headers1.put("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8");
+        headers1.put("Accept", "*/*");
         headers1.put("Accept-Encoding", "gzip, deflate");
         headers1.put("Accept-Language", "zh-CN,zh;q=0.8,en;q=0.6");
-        headers1.put("Cache-Control", "max-age=0");
+//        headers1.put("Cache-Control", "max-age=0");
         headers1.put("Connection", "keep-alive");
-        headers1.put("Cookie", "eas_sid=T1t5m0v8H5q5F2H6z2W394W7o8; tvfe_boss_uuid=2698b2b110e66b71; ts_uid=9440516329; mobileUV=1_15f3f287fb0_59e7d; pgv_pvi=3028362240; RK=MdcLCAafNz; o_cookie=125826029; pgv_si=s7071211520; ptisp=ctc; ptcz=56bf8aab87390c4b9a8e70945fe3c68ec025be0fb4cf7c6d2f26a42b2970465a; uin=o0125826029; skey=@nEqN2RDSD; pt2gguin=o0125826029; ied_rf=mail.qq.com/undefined; pgv_pvid=672048110; pgv_info=pgvReferrer=&ssid=s6894691328");
-        headers1.put("Host", "tga.qq.com");
-        headers1.put("Referer", "https://mail.qq.com/");
-        headers1.put("Upgrade-Insecure-Requests", "1");
+        headers1.put("Cookie", "eas_sid=T1t5m0v8H5q5F2H6z2W394W7o8; tvfe_boss_uuid=2698b2b110e66b71; mobileUV=1_15f3f287fb0_59e7d; pgv_pvi=3028362240; RK=MdcLCAafNz; o_cookie=125826029; ptcz=56bf8aab87390c4b9a8e70945fe3c68ec025be0fb4cf7c6d2f26a42b2970465a; pt2gguin=o0125826029; pgv_pvid=672048110; pgv_info=pgvReferrer=&ssid=s2941552394");
+        headers1.put("Host", "ac.o2.qq.com");
+        headers1.put("Referer", uri_index);
+//        headers1.put("Upgrade-Insecure-Requests", "1");
         headers1.put("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36");
         HttpUtil.get(uri_index, headers1, exceptionStatus, timeout);
     }
