@@ -76,34 +76,6 @@
                     </execution>
                 </executions>
             </plugin>
-
-			<plugin>
-				<groupId>com.jiujie</groupId>
-				<artifactId>code-hidding-plugin</artifactId>
-				<version>1.0</version>
-				<executions>
-					<execution>
-						<phase>package</phase>
-						<goals>
-							<goal>proguard</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<obfuscate>true</obfuscate>
-					<attach>true</attach>
-					<injar>tga-spider-1.0-jar-with-dependencies.jar</injar>
-					<!-- <injars>classes</injars> -->
-					<attachArtifactClassifier>pg</attachArtifactClassifier>
-					<proguardInclude>${basedir}/proguard.conf</proguardInclude>
-					<outjar>tga-spider-pg.jar</outjar>
-					<libs>
-						<lib>${java.home}/lib/rt.jar</lib>
-						<lib>${java.home}/lib/jsse.jar</lib>
-					</libs>
-					<addMavenDescriptor>true</addMavenDescriptor>
-				</configuration>
-			</plugin>
         </plugins>
 
     </build>
