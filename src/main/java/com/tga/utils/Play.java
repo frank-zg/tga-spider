@@ -43,67 +43,56 @@ public class Play implements Runnable {
         indexPage();
 
 
-        kvCommon("progid=124223502&P2PVer=&flashver=WIN&dc=4375&iQQ=408404664&sUrl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&BossId=2583&CheckSum=105821293&sRef=");
-        kvCommon("step=3&fplayerver=30203006&iTy=3007&val2=0&ptag=&guid=59BE71766CC9239F7799DD0E3717A38635876F66" +
-                "&tpay=0&sRef=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&p2pver=0&P2PVer=0" +
-                "&BossId=3007&Pwd=881273072&val=0&pid=85D2404AD61C507BCAB586A2F96B50890314C35C&sid=124223502&adid" +
-                "=&ctime="+cTimeStr()+"&vurl=&iQQ=408404664&surl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929" +
-                "%2Findex%2Ehtml&sdtfrom=10202&val1=0&sUrl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&flashver=WIN%2027%2E0%2E0%2E187&sref=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml");
-        kvCommon("itype=50&url=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&str2=1%2E4%2E6&iTy=2052&str4=85D2404AD61C507BCAB586A2F96B50890314C35C&val=100&int1=0&int2=0&ver=TencentPlayerLiveV3%2E2%2E3%2E06&bid=pcvideo&str3=&str1=&rnd=6660&vid=124223502&val2=&iSta=7");
+        kvCommon("flashver=WIN&progid=124223102&sUrl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&P2PVer=&BossId=2583&dc=9532&sRef=&iQQ=125826029&CheckSum=105821293");
+        kvCommon("val2=0&step=3&tpay=0&sRef=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&guid" +
+                "=92F883CEAC9A894B6D821E26C42D6B02E5ACE25B&P2PVer=0&val=0&p2pver=0&BossId=3007&ptag=&Pwd=881273072" +
+                "&vurl=&sid=124223102&adid=&pid=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&ctime="+cTimeStr()+"&iQQ" +
+                "=125826029&surl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&sdtfrom=10202&val1=0&sUrl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&flashver=MAC%2027%2E0%2E0%2E187&sref=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&fplayerver=30203006&iTy=3007");
+        kvCommon("bid=pcvideo&str2=1%2E4%2E6&url=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&itype=50&int1=0&rnd=648&ver=TencentPlayerLiveV3%2E2%2E3%2E06&str4=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&int2=0&str1=&vid=124223102&val2=&iSta=7&val=100&str3=&iTy=2052");
         kvGetCommon("http://btrace.video.qq.com/kvcollect?sIp=&iQQ=&sBiz=&sOp=&iSta=0&iTy=2481&iFlow=0&sUrl=http%3A" +
-                "%2F%2Fv.qq.com%2Flive%2Fp%2Ftopic%2F40929%2Findex" +
-                ".html&sRef=&sPageId=&sPos=&step=3&val=97&val1=2&val2=604&val3=&val4=&val5=&apid" +
-                "=4F3A5B3B592D1B73E8CFC8DFDCFA918E473749FC&pid=85D2404AD61C507BCAB586A2F96B50890314C35C&vid=124223502" +
+                "%2F%2Fv.qq.com%2Flive%2Fp%2Ftopic%2F40925%2Findex" +
+                ".html&sRef=&sPageId=&sPos=&step=3&val=69&val1=2&val2=604&val3=&val4=&val5=&apid" +
+                "=E0DFC7971B76F5C3F206A1F85DEAD3AAD2B28302&pid=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&vid=124223102" +
                 "&platform=1&pversion=TencentPlayerLiveV3.2.3.06&version=1.4.6&bi=1&bt=0&idx=0&appid=0&ua=Mozilla" +
-                "%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20" +
-                "(KHTML%2C%20like%20Gecko)%20Chrome%2F62.0.3202.75%20Safari%2F537.36&adtype=0&vurl=http%3A%2F%2Flivew" +
-                ".l.qq.com%2Flivemsg%3Fty%3Dweb%26ad_type%3DLD%7CKB%26rfid%3D%26pf%3Din%26pt%3D0%26pc%3D0%26vid" +
-                "%3D124223502%26coverid%3D%26live%3D1%26from%3D0%26pu%3D0%26v%3DTencentPlayerLiveV3.2.3.06%26plugin" +
-                "%3D1.4.6%26speed%3D0%26vptag%3D%26pid%3D85D2404AD61C507BCAB586A2F96B50890314C35C%26adaptor%3D2" +
-                "%26musictxt%3D%26chid%3D0%26mbid%3D%26guid%3D%26url%3Dhttp%3A%2F%2Fv.qq" +
-                ".com%2Flive%2Fp%2Ftopic%2F40929%2Findex.html%26refer%3D%26st%3D0&reporttime="+cTimeStr
-                ()+"&bdua=0&admtype=0&adid=&guid=&ispip=0&random=7384");
-        kvCommon("itype=50&url=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&str2=1%2E4%2E6&iTy=2052&str4=85D2404AD61C507BCAB586A2F96B50890314C35C&val=100&int1=0&int2=1&ver=TencentPlayerLiveV3%2E2%2E3%2E06&bid=pcvideo&str3=&str1=&rnd=9726&vid=124223502&val2=&iSta=7");
+                "%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_12_5)%20AppleWebKit%2F537.36%20" +
+                "(KHTML%2C%20like%20Gecko)%20Chrome%2F62.0.3202.94%20Safari%2F537.36&adtype=0&vurl=http%3A%2F%2Flivew" +
+                ".l.qq.com%2Flivemsg%3Fty%3Dweb%26ad_type%3DLD%7CKB%26rfid" +
+                "%3Dcda3fd3fb56ec93cea30628740cc9612_1509265417%26pf%3Din%26pt%3D0%26pc%3D0%26vid%3D124223102" +
+                "%26coverid%3D%26live%3D1%26from%3D0%26pu%3D0%26v%3DTencentPlayerLiveV3.2.3.06%26plugin%3D1.4.6" +
+                "%26speed%3D3946%26vptag%3D%26pid%3DA6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6%26adaptor%3D2%26musictxt" +
+                "%3D%26chid%3D0%26mbid%3D%26guid%3D%26url%3Dhttp%3A%2F%2Fv.qq.com%2Flive%2Fp%2Ftopic%2F40925%2Findex" +
+                ".html%26refer%3D%26st%3D0&reporttime="+cTimeStr()+"&bdua=0&admtype=0&adid=&guid=&ispip=0&random=3121");
+        kvCommon("bid=pcvideo&str2=1%2E4%2E6&url=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&itype=50&int1=0&rnd=5087&ver=TencentPlayerLiveV3%2E2%2E3%2E06&str4=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&int2=1&str1=&vid=124223102&val2=&iSta=7&val=100&str3=&iTy=2052");
         kvGetCommon("http://btrace.video.qq.com/kvcollect?sIp=&iQQ=&sBiz=&sOp=&iSta=0&iTy=2481&iFlow=0&sUrl=http%3A" +
-                "%2F%2Fv.qq.com%2Flive%2Fp%2Ftopic%2F40929%2Findex" +
-                ".html&sRef=&sPageId=&sPos=&step=3&val=421&val1=2&val2=604&val3=&val4=&val5=&apid" +
-                "=4F3A5B3B592D1B73E8CFC8DFDCFA918E473749FC&pid=85D2404AD61C507BCAB586A2F96B50890314C35C&vid=124223502" +
+                "%2F%2Fv.qq.com%2Flive%2Fp%2Ftopic%2F40925%2Findex" +
+                ".html&sRef=&sPageId=&sPos=&step=3&val=479&val1=2&val2=604&val3=&val4=&val5=&apid" +
+                "=E0DFC7971B76F5C3F206A1F85DEAD3AAD2B28302&pid=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&vid=124223102" +
                 "&platform=1&pversion=TencentPlayerLiveV3.2.3.06&version=1.4.6&bi=1&bt=0&idx=1&appid=0&ua=Mozilla" +
-                "%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20" +
-                "(KHTML%2C%20like%20Gecko)%20Chrome%2F62.0.3202.75%20Safari%2F537.36&adtype=0&vurl=http%3A%2F%2Flivew" +
-                ".l.qq.com%2Flivemsg%3Fty%3Dweb%26ad_type%3DLD%7CKB%26rfid%3D%26pf%3Din%26pt%3D0%26pc%3D0%26vid" +
-                "%3D124223502%26coverid%3D%26live%3D1%26from%3D0%26pu%3D0%26v%3DTencentPlayerLiveV3.2.3.06%26plugin" +
-                "%3D1.4.6%26speed%3D0%26vptag%3D%26pid%3D85D2404AD61C507BCAB586A2F96B50890314C35C%26adaptor%3D2" +
-                "%26musictxt%3D%26chid%3D0%26mbid%3D%26guid%3D%26url%3Dhttp%3A%2F%2Fv.qq" +
-                ".com%2Flive%2Fp%2Ftopic%2F40929%2Findex.html%26refer%3D%26st%3D0%26retry%3D1&reporttime="+cTimeStr
-                ()+"&bdua=0&admtype=0&adid=&guid=&ispip=0&random=2871");
-        regist();
+                "%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_12_5)%20AppleWebKit%2F537.36%20" +
+                "(KHTML%2C%20like%20Gecko)%20Chrome%2F62.0.3202.94%20Safari%2F537.36&adtype=0&vurl=http%3A%2F%2Flivew" +
+                ".l.qq.com%2Flivemsg%3Fty%3Dweb%26ad_type%3DLD%7CKB%26rfid" +
+                "%3Dcda3fd3fb56ec93cea30628740cc9612_1509265417%26pf%3Din%26pt%3D0%26pc%3D0%26vid%3D124223102" +
+                "%26coverid%3D%26live%3D1%26from%3D0%26pu%3D0%26v%3DTencentPlayerLiveV3.2.3.06%26plugin%3D1.4.6" +
+                "%26speed%3D3946%26vptag%3D%26pid%3DA6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6%26adaptor%3D2%26musictxt" +
+                "%3D%26chid%3D0%26mbid%3D%26guid%3D%26url%3Dhttp%3A%2F%2Fv.qq.com%2Flive%2Fp%2Ftopic%2F40925%2Findex" +
+                ".html%26refer%3D%26st%3D0%26retry%3D1&reporttime="+cTimeStr()
+                +"&bdua=0&admtype=0&adid=&guid=&ispip=0&random=379");
+//        regist();
 
-        kvCommon("Pwd=639535403&sDomain=live%2Ebpush%2Evideo%2Eqq%2Ecom&moduleid=1&err%5Ftype=0&all%5Ftime=736&platform=1&rcode=0&ever=undefined&ver=158&referer=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&play%5Ftype=2&iFlow=85D2404AD61C507BCAB586A2F96B50890314C35C&BossId=2790&vid=124223502");
+        kvCommon("val2=0&step=4&tpay=0&sRef=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&guid" +
+                "=92F883CEAC9A894B6D821E26C42D6B02E5ACE25B&P2PVer=0&val=534&p2pver=0&BossId=3007&ptag=&Pwd=881273072" +
+                "&vurl=http%3A%2F%2F124%2E232%2E162%2E109%3A8080" +
+                "%2FEE8CE35F3290AB2A5F7CCE650DB779F2CE89E3827FE47A3C3F09F1A485D0143352B095EABF727E95306AB7CC62F6D52AE183EF6B82FB12EC7033F83234DC39016D0F529EE92F255388B5AFA414652024A55B7EC20C5A2484%2F124223102%2Eflv%3Fcdncode%3D%252f18907E7BE0798990%252f%26time%3D"+System.currentTimeMillis()/1000+"%26cdn%3Dzijian%26sdtfrom%3Dv210221%26platform%3D10202%26butype%3D21%26scheduleflag%3D1%26buname%3Dqqlive%26vkey%3DEE8CE35F3290AB2A5F7CCE650DB779F2CE89E3827FE47A3C3F09F1A485D0143352B095EABF727E95306AB7CC62F6D52AE183EF6B82FB12EC7033F83234DC39016D0F529EE92F255388B5AFA414652024A55B7EC20C5A2484&sid=124223102&adid=&pid=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&ctime="+cTimeStr()+"&iQQ=125826029&surl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&sdtfrom=10202&val1=0&sUrl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&flashver=MAC%2027%2E0%2E0%2E187&sref=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&fplayerver=30203006&iTy=3007");
 
-        kvCommon("step=4&fplayerver=30203006&iTy=3007&val2=0&ptag=&guid=59BE71766CC9239F7799DD0E3717A38635876F66" +
-                "&tpay=0&sRef=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&p2pver=0&P2PVer=0" +
-                "&BossId=3007&Pwd=881273072&val=1131&pid=85D2404AD61C507BCAB586A2F96B50890314C35C&sid=124223502&adid" +
-                "=&ctime="+cTimeStr()+"&vurl=http%3A%2F%2F124%2E232%2E155%2E155%3A8080" +
-                "%2F37FBB84FDD1ACAB8E57B2FE5E8A348A7E3CE6DF0766D108593EE921CDF7DFD60902000A1FADD578302F4BE749BE8C6AB5F89784FB465704A784959A53F9B325EA222BC61B33CC641A2089C6DE9B2BC6028192B784FA5232A%2F124223502%2Eflv%3Fcdncode%3D%252f18907E7BE0798990%252f%26time%3D"+System.currentTimeMillis()/1000+"%26cdn%3Dzijian%26sdtfrom%3Dv210221%26platform%3D10202%26butype%3D21%26scheduleflag%3D1%26buname%3Dqqlive%26vkey%3D37FBB84FDD1ACAB8E57B2FE5E8A348A7E3CE6DF0766D108593EE921CDF7DFD60902000A1FADD578302F4BE749BE8C6AB5F89784FB465704A784959A53F9B325EA222BC61B33CC641A2089C6DE9B2BC6028192B784FA5232A&iQQ=408404664&surl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&sdtfrom=10202&val1=0&sUrl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&flashver=WIN%2027%2E0%2E0%2E187&sref=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml");
-        kvCommon("step=5&fplayerver=30203006&iTy=3007&val2=0&ptag=&guid=59BE71766CC9239F7799DD0E3717A38635876F66" +
-                "&tpay=0&sRef=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&p2pver=0&vurl=http" +
-                "%3A%2F%2F218%2E75%2E176%2E190%3A8080" +
-                "%2FDF9521656366814BFD50490660DD460DFC45394276162645C71AE80BBED414EE52DDA52011C01DF0283613CA32B7D1048DCD968FC2D2D1B505533D32F67F66965FD11DD42F85FAA8860A81D65CA854795667DD36E1FEA27A%2F124223502%2Eflv%3Fcdncode%3D%252f18907E7BE0798990%252f%26time%3D"+System.currentTimeMillis()/1000+"%26cdn%3Dzijian%26sdtfrom%3Dv210221%26platform%3D10202%26butype%3D21%26scheduleflag%3D1%26buname%3Dqqlive%26vkey%3DDF9521656366814BFD50490660DD460DFC45394276162645C71AE80BBED414EE52DDA52011C01DF0283613CA32B7D1048DCD968FC2D2D1B505533D32F67F66965FD11DD42F85FAA8860A81D65CA854795667DD36E1FEA27A&BossId=3007&Pwd=881273072&P2PVer=0&pid=8F9079CCD4EBED9B46311AFA4A1E51FB597AFE98&sid=124223502&adid=&ctime="+cTimeStr()+"&val=60176&iQQ=408404664&surl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&sdtfrom=10202&val1=0&sUrl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&flashver=WIN%2027%2E0%2E0%2E187&sref=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml");
-        kvCommon("step=5&fplayerver=30203006&iTy=3007&val2=0&ptag=&guid=59BE71766CC9239F7799DD0E3717A38635876F66" +
-                "&tpay=0&sRef=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&P2PVer=0&vurl=http" +
-                "%3A%2F%2F124%2E232%2E162%2E102%3A8080" +
-                "%2F94F7FDAA8DD5E6AF86FB2395ED21F3789678EB98E069B537DAA0A55EE5D7CB0198A01E7E870F5D398A642CCEE5618E0F3A5E50E99FFAA2B240BAA6C9862494E893F33CDD006F3692EF15F5D285FEA75C6E6A38E276FA2A85%2F124223502%2Eflv%3Fcdncode%3D%252f18907E7BE0798990%252f%26time%3D"+System.currentTimeMillis()/1000+"%26cdn%3Dzijian%26sdtfrom%3Dv210221%26platform%3D10202%26butype%3D21%26scheduleflag%3D1%26buname%3Dqqlive%26vkey%3D94F7FDAA8DD5E6AF86FB2395ED21F3789678EB98E069B537DAA0A55EE5D7CB0198A01E7E870F5D398A642CCEE5618E0F3A5E50E99FFAA2B240BAA6C9862494E893F33CDD006F3692EF15F5D285FEA75C6E6A38E276FA2A85&BossId=3007&Pwd=881273072&val=360068&pid=38B2C96DF49CC4F0D989C4DC69124F53E1B430D4&sid=124223502&adid=&ctime="+cTimeStr()+"&p2pver=0&iQQ=408404664&surl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&sdtfrom=10202&val1=0&sUrl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&flashver=WIN%2027%2E0%2E0%2E187&sref=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml");
-        kvCommon("cnl=124223502&uin=408404664&vky" +
-                "=37FBB84FDD1ACAB8E57B2FE5E8A348A7E3CE6DF0766D108593EE921CDF7DFD60902000A1FADD578302F4BE749BE8C6AB5F89784FB465704A784959A53F9B325EA222BC61B33CC641A2089C6DE9B2BC6028192B784FA5232A&cky=fsIJ4DlFpUoGa1N9CMxu99mxavGxXdbY5aRSR5GRGMmH2ZvZdJej6gK0IbGPd1Z4KkZcUM52feSlGAUoYiu6P6o2Hhr8WYyYHtvWboKZ%2DINCeORewdRcT%5FMnZPZ3tV2%5FycqfRSdrXjWMMr%2D1mxd6cx5%5Fw4i8sH9kZ25cAwVVkXbNkGNl%5FWtdDjWe8lSUEYhp%5FNbOwdVy24cz09SY5vj8RwPoTtEjFtwTshB5h6ini8rBe%5Fsbq%5FR5iSCdhFnnGP%5Fro56x8uLBKBOlT8vLalLIjDi3Tb%5FByKq8tWnoDnAyS02rN1aGeQK6PTZ0zB1YcqNeN%5FFjWw&iTy=2595&cip=218%2E77%2E106%2E136&sdt=10202&dip=zijian&avr=TencentPlayerLiveV3%2E2%2E3%2E06&cts="+System.currentTimeMillis()/1000+"&gid=59BE71766CC9239F7799DD0E3717A38635876F66&plt=1&evr=5%2E4&ftime="+System.currentTimeMillis());
-        kvCommon("step=1100&fplayerver=30203006&iTy=3007&val2=0&ptag=&guid=59BE71766CC9239F7799DD0E3717A38635876F66" +
-                "&tpay=0&sRef=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&p2pver=0&P2PVer=0" +
-                "&BossId=3007&Pwd=881273072&val=420&pid=85D2404AD61C507BCAB586A2F96B50890314C35C&sid=124223502&adid" +
-                "=&ctime="+cTimeStr()+"&vurl=http%3A%2F%2Finfo%2Ezb%2Evideo%2Eqq%2Ecom%2F%3Fbrowser%3Dchrome" +
-                "%26queueStatus%3D0%26txvjsv%3D2%26cKey%3DfsIJ4DlFpUoGa1N9CMxu99mxavGxXdbY5aRSR5GRGMmH2ZvZdJej6gK0IbGPd1Z4KkZcUM52feSlGAUoYiu6P6o2Hhr8WYyYHtvWboKZ%2DINCeORewdRcT%5FMnZPZ3tV2%5FycqfRSdrXjWMMr%2D1mxd6cx5%5Fw4i8sH9kZ25cAwVVkXbNkGNl%5FWtdDjWe8lSUEYhp%5FNbOwdVy24cz09SY5vj8RwPoTtEjFtwTshB5h6ini8rBe%5Fsbq%5FR5iSCdhFnnGP%5Fro56x8uLBKBOlT8vLalLIjDi3Tb%5FByKq8tWnoDnAyS02rN1aGeQK6PTZ0zB1YcqNeN%5FFjWw%26appVer%3DTencentPlayerLiveV3%2E2%2E3%2E06%26vip%5Fstatus%3D0%26flvtype%3D1%26guid%3D59BE71766CC9239F7799DD0E3717A38635876F66%26cmd%3D2%26stream%3D2%26host%3Dhttp%253A%252F%252Fv%2Eqq%2Ecom%252Flive%252Fp%252Ftopic%252F40929%252Findex%2Ehtml%26rid%3D85D2404AD61C507BCAB586A2F96B50890314C35C%26system%3D0%26sdtfrom%3D10202%26defn%3D%26fntick%3D0%26pla%3D0%26encryptVer%3D5%2E4%26defauto%3D1%26livepid%3D40929%26cnlid%3D124223502%26rnd%3D100%26livequeue%3D1%26flashver%3D27%2C0%2C0%2C187&iQQ=408404664&surl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&sdtfrom=10202&val1=0&sUrl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&flashver=WIN%2027%2E0%2E0%2E187&sref=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml");
-        kvCommon("platform=1&Pwd=779660211&cnlID=124223502&guid=59BE71766CC9239F7799DD0E3717A38635876F66&BossId=3460" +
-                "&ftime="+System
-                .currentTimeMillis()+"&vkey=37FBB84FDD1ACAB8E57B2FE5E8A348A7E3CE6DF0766D108593EE921CDF7DFD60902000A1FADD578302F4BE749BE8C6AB5F89784FB465704A784959A53F9B325EA222BC61B33CC641A2089C6DE9B2BC6028192B784FA5232A");
+        kvCommon
+                ("vky=EE8CE35F3290AB2A5F7CCE650DB779F2CE89E3827FE47A3C3F09F1A485D0143352B095EABF727E95306AB7CC62F6D52AE183EF6B82FB12EC7033F83234DC39016D0F529EE92F255388B5AFA414652024A55B7EC20C5A2484&iTy=2595&cnl=124223102&gid=92F883CEAC9A894B6D821E26C42D6B02E5ACE25B&evr=5%2E4&uin=125826029&cts="+System.currentTimeMillis()/1000+"&plt=1&dip=zijian&sdt=10202&cip=&ftime="+System.currentTimeMillis()+"&avr=TencentPlayerLiveV3%2E2%2E3%2E06&cky=%2DdI0CrpVmKAGa1N9CMxu99mxavGxXdbY5aRSR5GRGMlbLz5JguBPybww55yIFHg3NTzeVtajy5UQc0D0uJhCOH8EOLpVj6WeRzwDNDrhUJ9x%5FRrLuHRGYjcH0Pmz%5FQVMqP9IiPi2SKcpVn2P9t2siumqhz2XrFsuNYjb7gBs9DCXFsRlYjongOR%2DjY17TLaoWMFYoZCII5D5NvTNUjMW3pHfW5Fl9ENLxX8RWRDBXa7%5F6tVTbTlkH6tUREM5XvSaf27XpAJHwLJPfQ%2DQ677QoEYzJI3octXbMKhf7YEuQV4HCQ24MB07UqGOaZ9cgdr1ajWi3w");
+        kvCommon("val2=0&step=1100&tpay=0&sRef=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml" +
+                "&guid=92F883CEAC9A894B6D821E26C42D6B02E5ACE25B&P2PVer=0&val=391&p2pver=0&BossId=3007&ptag=&Pwd" +
+                "=881273072&vurl=http%3A%2F%2Finfo%2Ezb%2Evideo%2Eqq%2Ecom%2F%3Fflvtype%3D1%26queueStatus%3D0%26vip" +
+                "%5Fstatus%3D0%26cmd%3D2%26system%3D3%26encryptVer%3D5%2E4%26cKey%3D" +
+                "%2DdI0CrpVmKAGa1N9CMxu99mxavGxXdbY5aRSR5GRGMlbLz5JguBPybww55yIFHg3NTzeVtajy5UQc0D0uJhCOH8EOLpVj6WeRzwDNDrhUJ9x%5FRrLuHRGYjcH0Pmz%5FQVMqP9IiPi2SKcpVn2P9t2siumqhz2XrFsuNYjb7gBs9DCXFsRlYjongOR%2DjY17TLaoWMFYoZCII5D5NvTNUjMW3pHfW5Fl9ENLxX8RWRDBXa7%5F6tVTbTlkH6tUREM5XvSaf27XpAJHwLJPfQ%2DQ677QoEYzJI3octXbMKhf7YEuQV4HCQ24MB07UqGOaZ9cgdr1ajWi3w%26rid%3DA6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6%26guid%3D92F883CEAC9A894B6D821E26C42D6B02E5ACE25B%26sdtfrom%3D10202%26browser%3Dchrome%26rnd%3D742%26pla%3D0%26defauto%3D1%26livepid%3D40925%26host%3Dhttp%253A%252F%252Fv%2Eqq%2Ecom%252Flive%252Fp%252Ftopic%252F40925%252Findex%2Ehtml%26cnlid%3D124223102%26livequeue%3D1%26flashver%3D27%2C0%2C0%2C187%26fntick%3D0%26appVer%3DTencentPlayerLiveV3%2E2%2E3%2E06%26defn%3D%26txvjsv%3D2%26stream%3D2&sid=124223102&adid=&pid=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&ctime="+cTimeStr()+"&iQQ=125826029&surl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&sdtfrom=10202&val1=0&sUrl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&flashver=MAC%2027%2E0%2E0%2E187&sref=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&fplayerver=30203006&iTy=3007");
+        kvCommon
+                ("platform=1&vkey=EE8CE35F3290AB2A5F7CCE650DB779F2CE89E3827FE47A3C3F09F1A485D0143352B095EABF727E95306AB7CC62F6D52AE183EF6B82FB12EC7033F83234DC39016D0F529EE92F255388B5AFA414652024A55B7EC20C5A2484&cnlID=124223102&guid=92F883CEAC9A894B6D821E26C42D6B02E5ACE25B&ftime="+System.currentTimeMillis()+"&Pwd=779660211&BossId=3460");
 
 //        executorService.execute(() -> {
         //下载视频线程
@@ -115,27 +104,47 @@ public class Play implements Runnable {
         }
 
         //开始有规律播放进度
-        kvCommon("step=6&fplayerver=30203006&iTy=3007&val2=0&ptag=&guid=59BE71766CC9239F7799DD0E3717A38635876F66" +
-                "&tpay=0&sRef=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&p2pver=0&P2PVer=0" +
-                "&BossId=3007&Pwd=881273072&val=4107&pid=85D2404AD61C507BCAB586A2F96B50890314C35C&sid=124223502&adid" +
-                "=&ctime="+cTimeStr()+"&vurl=http%3A%2F%2F124%2E232%2E155%2E155%3A8080" +
-                "%2F37FBB84FDD1ACAB8E57B2FE5E8A348A7E3CE6DF0766D108593EE921CDF7DFD60902000A1FADD578302F4BE749BE8C6AB5F89784FB465704A784959A53F9B325EA222BC61B33CC641A2089C6DE9B2BC6028192B784FA5232A%2F124223502%2Eflv%3Fcdncode%3D%252f18907E7BE0798990%252f%26time%3D"+System.currentTimeMillis()/1000+"%26cdn%3Dzijian%26sdtfrom%3Dv210221%26platform%3D10202%26butype%3D21%26scheduleflag%3D1%26buname%3Dqqlive%26vkey%3D37FBB84FDD1ACAB8E57B2FE5E8A348A7E3CE6DF0766D108593EE921CDF7DFD60902000A1FADD578302F4BE749BE8C6AB5F89784FB465704A784959A53F9B325EA222BC61B33CC641A2089C6DE9B2BC6028192B784FA5232A&iQQ=408404664&surl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&sdtfrom=10202&val1=0&sUrl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&flashver=WIN%2027%2E0%2E0%2E187&sref=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml");
-        kvCommon("fplayerver=30203006&time="+System.currentTimeMillis()+"&live%5Ftype=8&StartP2P=0&durl=http%3A%2F%2F124%2E232%2E155" +
-                "%2E155%3A8080%2F37FBB84FDD1ACAB8E57B2FE5E8A348A7E3CE6DF0766D108593EE921CDF7DFD60902000A1FADD578302F4BE749BE8C6AB5F89784FB465704A784959A53F9B325EA222BC61B33CC641A2089C6DE9B2BC6028192B784FA5232A%2F124223502%2Eflv%3Fcdncode%3D%252f18907E7BE0798990%252f%26time%3D"+System.currentTimeMillis()/1000+"%26cdn%3Dzijian%26sdtfrom%3Dv210221%26platform%3D10202%26butype%3D21%26scheduleflag%3D1%26buname%3Dqqlive%26vkey%3D37FBB84FDD1ACAB8E57B2FE5E8A348A7E3CE6DF0766D108593EE921CDF7DFD60902000A1FADD578302F4BE749BE8C6AB5F89784FB465704A784959A53F9B325EA222BC61B33CC641A2089C6DE9B2BC6028192B784FA5232A&averPeerMeHealth=0&maxSpeed=420&switch=0&cnnTime=779&reCnnCount=0&lookback=0&p2pCount=0&lookbackseq=0&playAd=0&playerOnPlayTime=5314&seq=0&blockHasData=0&transtype=0&videopos=0&fullScreen=0&HashNotFinished=0&HttpDownlandSpeed=0&sIp=&HttpDownSum=0&iQQ=408404664&clientip=&UDPDownlandSpeed=0&sBiz=zhibo&str%5Fparam2=124%2E232%2E155%2E155&xserverip=&UDPDownSum=0&sOp=webflash&type=17&UpdataSpeed=0&SuperNodeIP=0&playtime=0&returnBitmapErr=0&cmd=205&iTy=1991&ispay=0&iSta=0&RtmfpInfo=0&iFlow=0&isuserpay=0&UDPUpSum=0&svrCount=0&PeerConnRate=0&sRef=&CDNAbnormal=0&guid=59BE71766CC9239F7799DD0E3717A38635876F66&P2PVer=0&P2PReDelay=0&SuperNodePort=0&adstat=4&dsip=124%2E232%2E155%2E155&playNo=85D2404AD61C507BCAB586A2F96B50890314C35C&viewid=&loadingTime=3328&cdn=zijian&progid=124223502&PeerServerPort=0&blockCount=0&PeerServerIP=0&blockTime=0&progUrl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&ReqSNBlockOutRange=0&errorCode=10000&peerCount=0&livepid=40929&fullecode=10000&averRemtime=0&str%5Fparam1=zijian&pla=1&prdLength=9&cnnPS=0&app=live&downSpeed=156&SuNodDelay=0&flashver=WIN%2027%2E0%2E0%2E187");
-        live_poll();
+        kvGetCommon("http://btrace.video.qq.com/kvcollect?BossId=3098&Pwd=390647416&oper=25&main_type=&uin=0&host=v.qq.com&url=http%3A%2F%2Fv.qq.com%2Flive%2Fp%2Ftopic%2F40925%2Findex.html&_dc=0.6710380502831816");
+        kvCommon("val2=0&step=6&tpay=0&sRef=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&guid" +
+                "=92F883CEAC9A894B6D821E26C42D6B02E5ACE25B&P2PVer=0&val=5207&p2pver=0&BossId=3007&ptag=&Pwd=881273072" +
+                "&vurl=http%3A%2F%2F124%2E232%2E162%2E109%3A8080" +
+                "%2FEE8CE35F3290AB2A5F7CCE650DB779F2CE89E3827FE47A3C3F09F1A485D0143352B095EABF727E95306AB7CC62F6D52AE183EF6B82FB12EC7033F83234DC39016D0F529EE92F255388B5AFA414652024A55B7EC20C5A2484%2F124223102%2Eflv%3Fcdncode%3D%252f18907E7BE0798990%252f%26time%3D"+System.currentTimeMillis()/1000+"%26cdn%3Dzijian%26sdtfrom%3Dv210221%26platform%3D10202%26butype%3D21%26scheduleflag%3D1%26buname%3Dqqlive%26vkey%3DEE8CE35F3290AB2A5F7CCE650DB779F2CE89E3827FE47A3C3F09F1A485D0143352B095EABF727E95306AB7CC62F6D52AE183EF6B82FB12EC7033F83234DC39016D0F529EE92F255388B5AFA414652024A55B7EC20C5A2484&sid=124223102&adid=&pid=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&ctime="+cTimeStr()+"&iQQ=125826029&surl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&sdtfrom=10202&val1=0&sUrl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&flashver=MAC%2027%2E0%2E0%2E187&sref=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&fplayerver=30203006&iTy=3007");
+        kvCommon("live%5Ftype=8&StartP2P=0&time="+System.currentTimeMillis()+"&fplayerver=30203006&flashver=MAC%2027%2E0%2E0%2E187" +
+                "&cnnTime=4854&reCnnCount=0&lookback=0&durl=http%3A%2F%2F124%2E232%2E162%2E109%3A8080" +
+                "%2FEE8CE35F3290AB2A5F7CCE650DB779F2CE89E3827FE47A3C3F09F1A485D0143352B095EABF727E95306AB7CC62F6D52AE183EF6B82FB12EC7033F83234DC39016D0F529EE92F255388B5AFA414652024A55B7EC20C5A2484%2F124223102%2Eflv%3Fcdncode%3D%252f18907E7BE0798990%252f%26time%3D"+System.currentTimeMillis()/1000+"%26cdn%3Dzijian%26sdtfrom%3Dv210221%26platform%3D10202%26butype%3D21%26scheduleflag%3D1%26buname%3Dqqlive%26vkey%3DEE8CE35F3290AB2A5F7CCE650DB779F2CE89E3827FE47A3C3F09F1A485D0143352B095EABF727E95306AB7CC62F6D52AE183EF6B82FB12EC7033F83234DC39016D0F529EE92F255388B5AFA414652024A55B7EC20C5A2484&p2pCount=0&lookbackseq=0&fullScreen=0&playerOnPlayTime=5772&seq=0&blockHasData=0&transtype=0&videopos=0&HashNotFinished=0&clientip=&sIp=&HttpDownSum=0&iQQ=125826029&HttpDownlandSpeed=0&UDPDownlandSpeed=0&sBiz=zhibo&switch=0&xserverip=&UDPDownSum=0&sOp=webflash&PeerServerPort=0&UpdataSpeed=0&SuperNodeIP=0&playtime=0&returnBitmapErr=0&cmd=205&SuperNodePort=0&ispay=0&iSta=0&RtmfpInfo=0&iFlow=0&isuserpay=0&UDPUpSum=0&svrCount=0&PeerConnRate=0&sRef=&guid=92F883CEAC9A894B6D821E26C42D6B02E5ACE25B&CDNAbnormal=0&P2PVer=0&playAd=0&iTy=1991&adstat=4&cnnPS=0&type=17&viewid=&loadingTime=353&dsip=124%2E232%2E162%2E109&progid=124223102&blockCount=0&playNo=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&PeerServerIP=0&blockTime=0&str%5Fparam2=124%2E232%2E162%2E109&averRemtime=0&cdn=zijian&errorCode=10000&peerCount=0&livepid=40925&fullecode=10000&progUrl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&str%5Fparam1=zijian&pla=1&prdLength=8&ReqSNBlockOutRange=0&app=live&downSpeed=181&SuNodDelay=0&P2PReDelay=0&maxSpeed=4179&averPeerMeHealth=0");
         live_pollx();
-        kvCommon("Pwd=639535403&sDomain=live%2Ebpush%2Evideo%2Eqq%2Ecom&moduleid=6&err%5Ftype=0&all%5Ftime=153&platform=1&rcode=0&ever=undefined&ver=158&referer=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&play%5Ftype=2&iFlow=85D2404AD61C507BCAB586A2F96B50890314C35C&BossId=2790&vid=124223502");
-        kvCommon("Pwd=639535403&sDomain=live%2Ebpush%2Evideo%2Eqq%2Ecom&moduleid=8&err%5Ftype=0&all%5Ftime=337&platform=1&rcode=0&ever=undefined&ver=158&referer=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&play%5Ftype=2&iFlow=85D2404AD61C507BCAB586A2F96B50890314C35C&BossId=2790&vid=124223502");
-        kvCommon("Pwd=639535403&sDomain=live%2Ebpush%2Evideo%2Eqq%2Ecom&moduleid=8&err%5Ftype=0&all%5Ftime=110&platform=1&rcode=0&ever=undefined&ver=158&referer=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&play%5Ftype=2&iFlow=85D2404AD61C507BCAB586A2F96B50890314C35C&BossId=2790&vid=124223502");
+        kvCommon("ever=undefined&err%5Ftype=0&iFlow=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&vid=124223102&platform=2&ver=158&play%5Ftype=2&sDomain=live%2Ebpush%2Evideo%2Eqq%2Ecom&referer=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&BossId=2790&rcode=0&Pwd=639535403&all%5Ftime=202&moduleid=6");
+        kvCommon("ever=undefined&err%5Ftype=0&iFlow=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&vid=124223102&platform=2&ver=158&play%5Ftype=2&sDomain=live%2Ebpush%2Evideo%2Eqq%2Ecom&referer=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&BossId=2790&rcode=0&Pwd=639535403&all%5Ftime=339&moduleid=8");
         live_poll();
-        kvCommon("itype=52&url=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&str2=1%2E4%2E6&iTy=2052&str4=85D2404AD61C507BCAB586A2F96B50890314C35C&val=100&int1=0&int2=0&ver=TencentPlayerLiveV3%2E2%2E3%2E06&bid=pcvideo&str3=&str1=&rnd=5334&vid=124223502&val2=&iSta=7");
-        kvGetCommon("http://btrace.video.qq.com/kvcollect?sIp=&iQQ=&sBiz=&sOp=&iSta=0&iTy=2481&iFlow=0&sUrl=http%3A%2F%2Fv.qq.com%2Flive%2Fp%2Ftopic%2F40929%2Findex.html&sRef=&sPageId=&sPos=&step=3&val=21&val1=2&val2=604&val3=&val4=&val5=&apid=1AD68E93495847A319AD0F8C7DE79876E73E7FD9&pid=85D2404AD61C507BCAB586A2F96B50890314C35C&vid=124223502&platform=1&pversion=TencentPlayerLiveV3.2.3.06&version=1.4.6&bi=1&bt=0&idx=0&appid=0&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F62.0.3202.75%20Safari%2F537.36&adtype=2&vurl=http%3A%2F%2Flivew.l.qq.com%2Flivemsg%3Fty%3Dweb%26ad_type%3DTP%26pf%3Din%26pt%3D0%26pc%3D0%26vid%3D124223502%26coverid%3D%26live%3D1%26from%3D0%26pu%3D0%26v%3DTencentPlayerLiveV3.2.3.06%26plugin%3D1.4.6%26speed%3D0%26vptag%3D%26pid%3D85D2404AD61C507BCAB586A2F96B50890314C35C%26adaptor%3D2%26musictxt%3D%26chid%3D0%26mbid%3D%26guid%3D%26url%3Dhttp%3A%2F%2Fv.qq.com%2Flive%2Fp%2Ftopic%2F40929%2Findex.html%26refer%3D&reporttime=2017-11-16%2015:00:53%20849&bdua=0&admtype=0&adid=&guid=&ispip=0&random=3004");
-        kvCommon("itype=52&url=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&str2=1%2E4%2E6&iTy=2052&str4=85D2404AD61C507BCAB586A2F96B50890314C35C&val=100&int1=0&int2=1&ver=TencentPlayerLiveV3%2E2%2E3%2E06&bid=pcvideo&str3=&str1=&rnd=5397&vid=124223502&val2=&iSta=7");
-        kvGetCommon("http://btrace.video.qq.com/kvcollect?sIp=&iQQ=&sBiz=&sOp=&iSta=0&iTy=2481&iFlow=0&sUrl=http%3A%2F%2Fv.qq.com%2Flive%2Fp%2Ftopic%2F40929%2Findex.html&sRef=&sPageId=&sPos=&step=3&val=93&val1=2&val2=604&val3=&val4=&val5=&apid=1AD68E93495847A319AD0F8C7DE79876E73E7FD9&pid=85D2404AD61C507BCAB586A2F96B50890314C35C&vid=124223502&platform=1&pversion=TencentPlayerLiveV3.2.3.06&version=1.4.6&bi=1&bt=0&idx=1&appid=0&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F62.0.3202.75%20Safari%2F537.36&adtype=2&vurl=http%3A%2F%2Flivew.l.qq.com%2Flivemsg%3Fty%3Dweb%26ad_type%3DTP%26pf%3Din%26pt%3D0%26pc%3D0%26vid%3D124223502%26coverid%3D%26live%3D1%26from%3D0%26pu%3D0%26v%3DTencentPlayerLiveV3.2.3.06%26plugin%3D1.4.6%26speed%3D0%26vptag%3D%26pid%3D85D2404AD61C507BCAB586A2F96B50890314C35C%26adaptor%3D2%26musictxt%3D%26chid%3D0%26mbid%3D%26guid%3D%26url%3Dhttp%3A%2F%2Fv.qq.com%2Flive%2Fp%2Ftopic%2F40929%2Findex.html%26refer%3D%26retry%3D1&reporttime=2017-11-16%2015:00:53%20946&bdua=0&admtype=0&adid=&guid=&ispip=0&random=2816");
-        kvCommon("Pwd=639535403&sDomain=live%2Ebpush%2Evideo%2Eqq%2Ecom&moduleid=8&err%5Ftype=0&all%5Ftime=110&platform=1&rcode=0&ever=undefined&ver=158&referer=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&play%5Ftype=2&iFlow=85D2404AD61C507BCAB586A2F96B50890314C35C&BossId=2790&vid=124223502");
-        kvCommon("Pwd=639535403&sDomain=live%2Ebpush%2Evideo%2Eqq%2Ecom&moduleid=8&err%5Ftype=0&all%5Ftime=110&platform=1&rcode=0&ever=undefined&ver=158&referer=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&play%5Ftype=2&iFlow=85D2404AD61C507BCAB586A2F96B50890314C35C&BossId=2790&vid=124223502");
+        kvCommon("bid=pcvideo&str2=1%2E4%2E6&url=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&itype=52&int1=0&rnd=6367&ver=TencentPlayerLiveV3%2E2%2E3%2E06&str4=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&int2=0&str1=&vid=124223102&val2=&iSta=7&val=100&str3=&iTy=2052");
+        kvGetCommon("http://btrace.video.qq.com/kvcollect?sIp=&iQQ=&sBiz=&sOp=&iSta=0&iTy=2481&iFlow=0&sUrl=http%3A" +
+                "%2F%2Fv.qq.com%2Flive%2Fp%2Ftopic%2F40925%2Findex" +
+                ".html&sRef=&sPageId=&sPos=&step=3&val=12&val1=2&val2=604&val3=&val4=&val5=&apid" +
+                "=086CB27610ACE536006168DB53BDD367EB3A6D65&pid=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&vid=124223102" +
+                "&platform=1&pversion=TencentPlayerLiveV3.2.3.06&version=1.4.6&bi=1&bt=0&idx=0&appid=0&ua=Mozilla" +
+                "%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_12_5)%20AppleWebKit%2F537.36%20" +
+                "(KHTML%2C%20like%20Gecko)%20Chrome%2F62.0.3202.94%20Safari%2F537.36&adtype=2&vurl=http%3A%2F%2Flivew" +
+                ".l.qq.com%2Flivemsg%3Fty%3Dweb%26ad_type%3DTP%26pf%3Din%26pt%3D0%26pc%3D0%26vid%3D124223102" +
+                "%26coverid%3D%26live%3D1%26from%3D0%26pu%3D0%26v%3DTencentPlayerLiveV3.2.3.06%26plugin%3D1.4.6" +
+                "%26speed%3D3946%26vptag%3D%26pid%3DA6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6%26adaptor%3D2%26musictxt" +
+                "%3D%26chid%3D0%26mbid%3D%26guid%3D%26url%3Dhttp%3A%2F%2Fv.qq.com%2Flive%2Fp%2Ftopic%2F40925%2Findex" +
+                ".html%26refer%3D&reporttime="+cTimeStr()+"&bdua=0&admtype=0&adid=&guid=&ispip=0&random=3959");
+        kvCommon("bid=pcvideo&str2=1%2E4%2E6&url=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&itype=52&int1=0&rnd=5867&ver=TencentPlayerLiveV3%2E2%2E3%2E06&str4=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&int2=1&str1=&vid=124223102&val2=&iSta=7&val=100&str3=&iTy=2052");
+        kvGetCommon("http://btrace.video.qq.com/kvcollect?sIp=&iQQ=&sBiz=&sOp=&iSta=0&iTy=2481&iFlow=0&sUrl=http%3A" +
+                "%2F%2Fv.qq.com%2Flive%2Fp%2Ftopic%2F40925%2Findex" +
+                ".html&sRef=&sPageId=&sPos=&step=3&val=27&val1=2&val2=604&val3=&val4=&val5=&apid" +
+                "=086CB27610ACE536006168DB53BDD367EB3A6D65&pid=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&vid=124223102" +
+                "&platform=1&pversion=TencentPlayerLiveV3.2.3.06&version=1.4.6&bi=1&bt=0&idx=1&appid=0&ua=Mozilla" +
+                "%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_12_5)%20AppleWebKit%2F537.36%20" +
+                "(KHTML%2C%20like%20Gecko)%20Chrome%2F62.0.3202.94%20Safari%2F537.36&adtype=2&vurl=http%3A%2F%2Flivew" +
+                ".l.qq.com%2Flivemsg%3Fty%3Dweb%26ad_type%3DTP%26pf%3Din%26pt%3D0%26pc%3D0%26vid%3D124223102" +
+                "%26coverid%3D%26live%3D1%26from%3D0%26pu%3D0%26v%3DTencentPlayerLiveV3.2.3.06%26plugin%3D1.4.6" +
+                "%26speed%3D3946%26vptag%3D%26pid%3DA6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6%26adaptor%3D2%26musictxt" +
+                "%3D%26chid%3D0%26mbid%3D%26guid%3D%26url%3Dhttp%3A%2F%2Fv.qq.com%2Flive%2Fp%2Ftopic%2F40925%2Findex" +
+                ".html%26refer%3D%26retry%3D1&reporttime="+cTimeStr
+                ()+"&bdua=0&admtype=0&adid=&guid=&ispip=0&random=9151");
         live_poll();
-        kvCommon("Pwd=639535403&sDomain=live%2Ebpush%2Evideo%2Eqq%2Ecom&moduleid=8&err%5Ftype=0&all%5Ftime=105&platform=1&rcode=0&ever=undefined&ver=158&referer=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&play%5Ftype=2&iFlow=85D2404AD61C507BCAB586A2F96B50890314C35C&BossId=2790&vid=124223502");
+        live_poll();
         try {
             for (int i = 1; i < videoTime; i++) {
                 forEachRequest(i);
@@ -158,7 +167,7 @@ public class Play implements Runnable {
         headers1.put("Accept-Language", "zh-CN,zh;q=0.8,en;q=0.6");
         headers1.put("Cache-Control", "max-age=0");
         headers1.put("Connection", "keep-alive");
-        headers1.put("Cookie", "pgv_pvi=3304220672; RK=+WdyHLx7Oo; ptcz=478ca7fd50f0f5b3e3e9a6f2b15ac903a05b02d54549ddd8ad252ee913e4fb65; pt2gguin=o0408404664; eas_sid=01Y5s0G93681P3q5f4R504s7N4; tvfe_boss_uuid=3c6ff62f28b10133; pac_uid=0_ae0dccf2deb68; ts_refer=sports.qq.com/a/20171115/018806.htm; ts_uid=1730588920; pgv_pvid=1118471560; o_cookie=408404664");
+        headers1.put("Cookie", "eas_sid=T1t5m0v8H5q5F2H6z2W394W7o8; tvfe_boss_uuid=2698b2b110e66b71; mobileUV=1_15f3f287fb0_59e7d; pgv_pvi=3028362240; RK=MdcLCAafNz; ts_refer=www.google.com.hk/; ptcz=56bf8aab87390c4b9a8e70945fe3c68ec025be0fb4cf7c6d2f26a42b2970465a; pt2gguin=o0125826029; pgv_info=ssid=s4284042585; ts_last=v.qq.com/live/p/topic/40925/index.html; pgv_pvid=672048110; o_cookie=125826029; ts_uid=9320616880; ptag=|live");
         headers1.put("Host", "v.qq.com");
 //        headers1.put("Referer", "https://mail.qq.com/");
         headers1.put("Upgrade-Insecure-Requests", "1");
@@ -203,24 +212,29 @@ public class Play implements Runnable {
 
     public void forEachRequest(int seq) {
         try {
-            kvCommon("Pwd=639535403&sDomain=live%2Ebpush%2Evideo%2Eqq%2Ecom&moduleid=8&err%5Ftype=0&all%5Ftime=106&platform=1&rcode=0&ever=undefined&ver=158&referer=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&play%5Ftype=2&iFlow=85D2404AD61C507BCAB586A2F96B50890314C35C&BossId=2790&vid=124223502");
-            kvCommon("platform=1&Pwd=779660211&cnlID=124223502&guid=59BE71766CC9239F7799DD0E3717A38635876F66&BossId" +
-                    "=3460&ftime="+System
-                    .currentTimeMillis()+"&vkey=37FBB84FDD1ACAB8E57B2FE5E8A348A7E3CE6DF0766D108593EE921CDF7DFD60902000A1FADD578302F4BE749BE8C6AB5F89784FB465704A784959A53F9B325EA222BC61B33CC641A2089C6DE9B2BC6028192B784FA5232A");
+            kvCommon
+                    ("platform=1&vkey=EE8CE35F3290AB2A5F7CCE650DB779F2CE89E3827FE47A3C3F09F1A485D0143352B095EABF727E95306AB7CC62F6D52AE183EF6B82FB12EC7033F83234DC39016D0F529EE92F255388B5AFA414652024A55B7EC20C5A2484&cnlID=124223102&guid=92F883CEAC9A894B6D821E26C42D6B02E5ACE25B&ftime="+System.currentTimeMillis()+"&Pwd=779660211&BossId=3460");
+            kvCommon("live%5Ftype=8&StartP2P=0&time="+System.currentTimeMillis()+"&fplayerver=30203006&flashver=MAC%2027%2E0%2E0" +
+                    "%2E187&cnnTime=0&reCnnCount=0&lookback=0&durl=http%3A%2F%2F124%2E232%2E162%2E109%3A8080" +
+                    "%2FEE8CE35F3290AB2A5F7CCE650DB779F2CE89E3827FE47A3C3F09F1A485D0143352B095EABF727E95306AB7CC62F6D52AE183EF6B82FB12EC7033F83234DC39016D0F529EE92F255388B5AFA414652024A55B7EC20C5A2484%2F124223102%2Eflv%3Fcdncode%3D%252f18907E7BE0798990%252f%26time%3D"+System.currentTimeMillis()/1000+"%26cdn%3Dzijian%26sdtfrom%3Dv210221%26platform%3D10202%26butype%3D21%26scheduleflag%3D1%26buname%3Dqqlive%26vkey%3DEE8CE35F3290AB2A5F7CCE650DB779F2CE89E3827FE47A3C3F09F1A485D0143352B095EABF727E95306AB7CC62F6D52AE183EF6B82FB12EC7033F83234DC39016D0F529EE92F255388B5AFA414652024A55B7EC20C5A2484&p2pCount=0&lookbackseq=0&fullScreen=0&playerOnPlayTime=0&seq=1&blockHasData=0&transtype=0&videopos=0&HashNotFinished=0&clientip=&sIp=&HttpDownSum=0&iQQ=125826029&HttpDownlandSpeed=0&UDPDownlandSpeed=0&sBiz=zhibo&switch=0&xserverip=&UDPDownSum=0&sOp=webflash&PeerServerPort=0&UpdataSpeed=0&SuperNodeIP=0&playtime=0&returnBitmapErr=0&cmd=263&SuperNodePort=0&ispay=0&iSta=0&RtmfpInfo=0&iFlow=0&isuserpay=0&UDPUpSum=0&svrCount=0&PeerConnRate=0&sRef=&guid=92F883CEAC9A894B6D821E26C42D6B02E5ACE25B&CDNAbnormal=0&P2PVer=0&playAd=0&iTy=1991&adstat=4&cnnPS=0&type=17&viewid=&loadingTime=0&dsip=124%2E232%2E162%2E109&progid=124223102&blockCount=0&playNo=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&PeerServerIP=0&blockTime=0&str%5Fparam2=124%2E232%2E162%2E109&averRemtime=0&cdn=zijian&errorCode=10000&peerCount=0&livepid=40925&fullecode=10000&progUrl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&str%5Fparam1=zijian&pla=1&prdLength=60&ReqSNBlockOutRange=0&app=live&downSpeed=285&SuNodDelay=0&P2PReDelay=0&maxSpeed=0&averPeerMeHealth=0");
             sleep();
             live_poll();
             live_pollx();
             sleep();
-            kvCommon("Pwd=639535403&sDomain=live%2Ebpush%2Evideo%2Eqq%2Ecom&moduleid=8&err%5Ftype=0&all%5Ftime=106&platform=1&rcode=0&ever=undefined&ver=158&referer=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&play%5Ftype=2&iFlow=85D2404AD61C507BCAB586A2F96B50890314C35C&BossId=2790&vid=124223502");
-            kvCommon("Pwd=639535403&sDomain=live%2Ebpush%2Evideo%2Eqq%2Ecom&moduleid=8&err%5Ftype=0&all%5Ftime=108&platform=1&rcode=0&ever=undefined&ver=158&referer=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&play%5Ftype=2&iFlow=85D2404AD61C507BCAB586A2F96B50890314C35C&BossId=2790&vid=124223502");
+            kvCommon("ever=undefined&err%5Ftype=0&iFlow=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&vid=124223102&platform=2&ver=158&play%5Ftype=2&sDomain=live%2Ebpush%2Evideo%2Eqq%2Ecom&referer=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&BossId=2790&rcode=0&Pwd=639535403&all%5Ftime=102&moduleid=8");
+            kvCommon
+                    ("platform=1&vkey=EE8CE35F3290AB2A5F7CCE650DB779F2CE89E3827FE47A3C3F09F1A485D0143352B095EABF727E95306AB7CC62F6D52AE183EF6B82FB12EC7033F83234DC39016D0F529EE92F255388B5AFA414652024A55B7EC20C5A2484&cnlID=124223102&guid=92F883CEAC9A894B6D821E26C42D6B02E5ACE25B&ftime="+System.currentTimeMillis()+"&Pwd=779660211&BossId=3460");
             sleep();
             live_poll();
-            kvCommon("Pwd=639535403&sDomain=live%2Ebpush%2Evideo%2Eqq%2Ecom&moduleid=8&err%5Ftype=0&all%5Ftime=104&platform=1&rcode=0&ever=undefined&ver=158&referer=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&play%5Ftype=2&iFlow=85D2404AD61C507BCAB586A2F96B50890314C35C&BossId=2790&vid=124223502");
+            kvCommon("ever=undefined&err%5Ftype=0&iFlow=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&vid=124223102&platform=2&ver=158&play%5Ftype=2&sDomain=live%2Ebpush%2Evideo%2Eqq%2Ecom&referer=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&BossId=2790&rcode=0&Pwd=639535403&all%5Ftime=99&moduleid=8");
             sleep();
-            kvCommon("Pwd=639535403&sDomain=live%2Ebpush%2Evideo%2Eqq%2Ecom&moduleid=8&err%5Ftype=0&all%5Ftime=108&platform=1&rcode=0&ever=undefined&ver=158&referer=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&play%5Ftype=2&iFlow=85D2404AD61C507BCAB586A2F96B50890314C35C&BossId=2790&vid=124223502");
+            kvCommon("live%5Ftype=8&StartP2P=0&time="+System.currentTimeMillis()+"&fplayerver=30203006&flashver=MAC%2027%2E0%2E0%2E187" +
+                    "&cnnTime=0&reCnnCount=0&lookback=0&durl=http%3A%2F%2F124%2E232%2E162%2E109%3A8080" +
+                    "%2FEE8CE35F3290AB2A5F7CCE650DB779F2CE89E3827FE47A3C3F09F1A485D0143352B095EABF727E95306AB7CC62F6D52AE183EF6B82FB12EC7033F83234DC39016D0F529EE92F255388B5AFA414652024A55B7EC20C5A2484%2F124223102%2Eflv%3Fcdncode%3D%252f18907E7BE0798990%252f%26time%3D"+System.currentTimeMillis()+"%26cdn%3Dzijian%26sdtfrom%3Dv210221%26platform%3D10202%26butype%3D21%26scheduleflag%3D1%26buname%3Dqqlive%26vkey%3DEE8CE35F3290AB2A5F7CCE650DB779F2CE89E3827FE47A3C3F09F1A485D0143352B095EABF727E95306AB7CC62F6D52AE183EF6B82FB12EC7033F83234DC39016D0F529EE92F255388B5AFA414652024A55B7EC20C5A2484&p2pCount=0&lookbackseq=0&fullScreen=0&playerOnPlayTime=0&seq=2&blockHasData=0&transtype=0&videopos=0&HashNotFinished=0&clientip=&sIp=&HttpDownSum=0&iQQ=125826029&HttpDownlandSpeed=0&UDPDownlandSpeed=0&sBiz=zhibo&switch=0&xserverip=&UDPDownSum=0&sOp=webflash&PeerServerPort=0&UpdataSpeed=0&SuperNodeIP=0&playtime=0&returnBitmapErr=0&cmd=263&SuperNodePort=0&ispay=0&iSta=0&RtmfpInfo=0&iFlow=0&isuserpay=0&UDPUpSum=0&svrCount=0&PeerConnRate=0&sRef=&guid=92F883CEAC9A894B6D821E26C42D6B02E5ACE25B&CDNAbnormal=0&P2PVer=0&playAd=0&iTy=1991&SuNodDelay=0&cnnPS=0&type=17&viewid=&loadingTime=0&dsip=124%2E232%2E162%2E109&progid=124223102&blockCount=0&playNo=A6105D13C2BE205449E4C3EE2D9BCFE4C9B12CE6&PeerServerIP=0&blockTime=0&str%5Fparam2=124%2E232%2E162%2E109&averRemtime=0&cdn=zijian&errorCode=10000&peerCount=0&livepid=40925&fullecode=10000&progUrl=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40925%2Findex%2Ehtml&str%5Fparam1=zijian&pla=1&prdLength=60&ReqSNBlockOutRange=0&app=live&downSpeed=197&adstat=0&P2PReDelay=0&maxSpeed=0&averPeerMeHealth=0");
             live_poll();
             sleep();
-            kvCommon("Pwd=639535403&sDomain=live%2Ebpush%2Evideo%2Eqq%2Ecom&moduleid=8&err%5Ftype=0&all%5Ftime=105&platform=1&rcode=0&ever=undefined&ver=158&referer=http%3A%2F%2Fv%2Eqq%2Ecom%2Flive%2Fp%2Ftopic%2F40929%2Findex%2Ehtml&play%5Ftype=2&iFlow=85D2404AD61C507BCAB586A2F96B50890314C35C&BossId=2790&vid=124223502");
+            kvCommon
+                    ("platform=1&vkey=EE8CE35F3290AB2A5F7CCE650DB779F2CE89E3827FE47A3C3F09F1A485D0143352B095EABF727E95306AB7CC62F6D52AE183EF6B82FB12EC7033F83234DC39016D0F529EE92F255388B5AFA414652024A55B7EC20C5A2484&cnlID=124223102&guid=92F883CEAC9A894B6D821E26C42D6B02E5ACE25B&ftime="+System.currentTimeMillis()+"&Pwd=779660211&BossId=3460");
             sleep();
         } catch (InterruptedException e) {
 
@@ -243,7 +257,7 @@ public class Play implements Runnable {
         headers.put("Accept-Language", "zh-CN,zh;q=0.8,en;q=0.6");
         headers.put("Cache-Control", "max-age=0");
         headers.put("Connection", "keep-alive");
-        headers.put("Cookie", "pgv_pvi=3304220672; RK=+WdyHLx7Oo; ptcz=478ca7fd50f0f5b3e3e9a6f2b15ac903a05b02d54549ddd8ad252ee913e4fb65; pt2gguin=o0408404664; eas_sid=01Y5s0G93681P3q5f4R504s7N4; tvfe_boss_uuid=3c6ff62f28b10133; pac_uid=0_ae0dccf2deb68; pgv_info=ssid=s3902629128; pgv_pvid=1118471560; o_cookie=408404664");
+        headers.put("Cookie", "eas_sid=T1t5m0v8H5q5F2H6z2W394W7o8; tvfe_boss_uuid=2698b2b110e66b71; mobileUV=1_15f3f287fb0_59e7d; pgv_pvi=3028362240; RK=MdcLCAafNz; ptcz=56bf8aab87390c4b9a8e70945fe3c68ec025be0fb4cf7c6d2f26a42b2970465a; pt2gguin=o0125826029; pgv_info=ssid=s4284042585; pgv_pvid=672048110; o_cookie=125826029");
         headers.put("Host", "btrace.video.qq.com");
         headers.put("Referer", uri_index);
         headers.put("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36");
@@ -260,10 +274,11 @@ public class Play implements Runnable {
         headers.put("Connection", "keep-alive");
         headers.put("Content-Length", String.valueOf(body.length()));
         headers.put("Content-Type", "application/x-www-form-urlencoded");
-        headers.put("Cookie", "pgv_pvi=3304220672; RK=+WdyHLx7Oo; ptcz=478ca7fd50f0f5b3e3e9a6f2b15ac903a05b02d54549ddd8ad252ee913e4fb65; pt2gguin=o0408404664; eas_sid=01Y5s0G93681P3q5f4R504s7N4; tvfe_boss_uuid=3c6ff62f28b10133; pac_uid=0_ae0dccf2deb68; pgv_info=ssid=s3902629128; pgv_pvid=1118471560; o_cookie=408404664");
+        headers.put("Cookie", "eas_sid=T1t5m0v8H5q5F2H6z2W394W7o8; tvfe_boss_uuid=2698b2b110e66b71; mobileUV=1_15f3f287fb0_59e7d; pgv_pvi=3028362240; RK=MdcLCAafNz; ptcz=56bf8aab87390c4b9a8e70945fe3c68ec025be0fb4cf7c6d2f26a42b2970465a; pt2gguin=o0125826029; pgv_info=ssid=s4284042585; pgv_pvid=672048110; o_cookie=125826029");
         headers.put("Host", "btrace.video.qq.com");
         headers.put("Origin", "http://imgcache.qq.com");
-        headers.put("Referer", "http://imgcache.qq.com/minivideo_v1/vd/res/TencentPlayerLive.swf?max_age=86400&v=20140714");
+        headers.put("Referer", "http://imgcache.qq.com/minivideo_v1/vd/res/TencentPlayerLive" +
+                ".swf?max_age=86400&v="+ System.currentTimeMillis());
         headers.put("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36");
         headers.put("X-Requested-With", "ShockwaveFlash/27.0.0.187");
         HttpUtil.post(KV_URL, body, headers, exceptionStatus, timeout);
@@ -275,12 +290,12 @@ public class Play implements Runnable {
         headers.put("Accept-Encoding", "gzip, deflate");
         headers.put("Accept-Language", "zh-CN,zh;q=0.8,en;q=0.6");
         headers.put("Connection", "keep-alive");
-        headers.put("Cookie", "pgv_pvi=3304220672; RK=+WdyHLx7Oo; ptcz=478ca7fd50f0f5b3e3e9a6f2b15ac903a05b02d54549ddd8ad252ee913e4fb65; pt2gguin=o0408404664; eas_sid=01Y5s0G93681P3q5f4R504s7N4; tvfe_boss_uuid=3c6ff62f28b10133; pac_uid=0_ae0dccf2deb68; pgv_info=ssid=s3902629128; pgv_pvid=1118471560; o_cookie=408404664");
+        headers.put("Cookie", "eas_sid=T1t5m0v8H5q5F2H6z2W394W7o8; tvfe_boss_uuid=2698b2b110e66b71; mobileUV=1_15f3f287fb0_59e7d; pgv_pvi=3028362240; RK=MdcLCAafNz; ptcz=56bf8aab87390c4b9a8e70945fe3c68ec025be0fb4cf7c6d2f26a42b2970465a; pt2gguin=o0125826029; pgv_info=ssid=s4284042585; pgv_pvid=672048110; o_cookie=125826029");
         headers.put("Host", "live.mobile.video.qq.com");
         headers.put("Referer", uri_index);
         headers.put("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36");
         HttpUtil.get("http://live.mobile.video.qq" +
-                ".com/fcgi-bin/live_poll?callback=livepoll&low_login=1&guid=104&pollDataKey=pid%3D40929&qqlog" +
+                ".com/fcgi-bin/live_poll?callback=livepoll&low_login=1&guid=104&pollDataKey=pid%3D40925&qqlog" +
                 "=1632485840&otype=json&_="+System.currentTimeMillis(), headers, exceptionStatus, timeout);
     }
 
@@ -290,12 +305,12 @@ public class Play implements Runnable {
         headers.put("Accept-Encoding", "gzip, deflate");
         headers.put("Accept-Language", "zh-CN,zh;q=0.8,en;q=0.6");
         headers.put("Connection", "keep-alive");
-        headers.put("Cookie", "eas_sid=T1t5m0v8H5q5F2H6z2W394W7o8; tvfe_boss_uuid=2698b2b110e66b71; mobileUV=1_15f3f287fb0_59e7d; pgv_pvi=3028362240; RK=MdcLCAafNz; o_cookie=125826029; ptcz=56bf8aab87390c4b9a8e70945fe3c68ec025be0fb4cf7c6d2f26a42b2970465a; pt2gguin=o0125826029; pgv_pvid=672048110; pgv_info=pgvReferrer=&ssid=s9739225135");
+        headers.put("Cookie", "eas_sid=T1t5m0v8H5q5F2H6z2W394W7o8; tvfe_boss_uuid=2698b2b110e66b71; mobileUV=1_15f3f287fb0_59e7d; pgv_pvi=3028362240; RK=MdcLCAafNz; ptcz=56bf8aab87390c4b9a8e70945fe3c68ec025be0fb4cf7c6d2f26a42b2970465a; pt2gguin=o0125826029; pgv_info=ssid=s4284042585; pgv_pvid=672048110; o_cookie=125826029");
         headers.put("Host", "live.mobile.video.qq.com");
         headers.put("Referer", uri_index);
         headers.put("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36");
         headers.put("X-Requested-With", "ShockwaveFlash/27.0.0.187");
-        HttpUtil.get("http://live.mobile.video.qq.com/fcgi-bin/live_poll?otype=json&guid=59BE71766CC9239F7799DD0E3717A38635876F66&qqlog=&needmark=1&pollDataKey=pid%3D40929%26type%3D&markContext=last%3D0", headers, exceptionStatus, timeout);
+        HttpUtil.get("http://live.mobile.video.qq.com/fcgi-bin/live_poll?otype=json&pollDataKey=pid%3D40925%26type%3D&guid=92F883CEAC9A894B6D821E26C42D6B02E5ACE25B&needmark=1&qqlog=&markContext=last%3D0", headers, exceptionStatus, timeout);
     }
 
     /**
@@ -310,7 +325,7 @@ public class Play implements Runnable {
         String host2 = null;
 
         try {
-            String tmpUrl = videoUri + "&guid=59BE71766CC9239F7799DD0E3717A38635876F66&refer=http%3A%2F%2Fv.qq.com%2Flive%2Fp%2Ftopic%2F40929%2Findex.html&apptype=live";
+            String tmpUrl = videoUri + "&guid=92F883CEAC9A894B6D821E26C42D6B02E5ACE25B&refer=http%3A%2F%2Fv.qq.com%2Flive%2Fp%2Ftopic%2F40925%2Findex.html&apptype=live";
             String host = tmpUrl.substring(8);
             host2 = host.substring(0, host.indexOf('/'));
 
