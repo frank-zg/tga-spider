@@ -1,8 +1,9 @@
 package com.tga.utils;
 
 import java.io.IOException;
-import java.time.LocalDate;
+import java.time.*;
 import java.util.HashMap;
+import java.util.TimeZone;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeoutException;
 
@@ -10,7 +11,7 @@ public class Auth {
 
     public static final boolean checkAuth(boolean exceptionStatus, int timeout) {
         try {
-            String body = HttpUtil.getOrReturn("http://www.beijing-time.org/time15.asp", new HashMap<>(),
+            /*String body = HttpUtil.getOrReturn("http://www.beijing-time.org/time15.asp", new HashMap<>(),
                     exceptionStatus, timeout);
             if (body != null) {
                 String[] times = body.split(";");
@@ -21,6 +22,20 @@ public class Auth {
                 if (LocalDate.of(year, month, day).compareTo(LocalDate.of(2018, 6, 30)) <= 0) {
                     return true;
                 }
+            }*/
+
+            String json = HttpUtil.getOrReturn("https://www.immomo.com/login?action=captcha",new HashMap<>(),false,10);
+
+            long timestamp = System.currentTimeMillis();
+            try {
+                timestamp = Long.parseLong(JsonUtil.filter(json, "timesec")) * 1000;
+            }catch (Exception e){
+            }
+            LocalDate beijing = LocalDateTime.ofInstant(Instant.ofEpochSecond(timestamp / 1000),
+                    TimeZone.getDefault().toZoneId()).toLocalDate();
+
+            if (beijing.compareTo(LocalDate.of(2018, 6, 30)) <= 0) {
+                return true;
             }
 
             return false;
