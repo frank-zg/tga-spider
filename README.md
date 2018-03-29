@@ -1,2 +1,2 @@
-#  QQ飞车手游
-## 站点地址：http://tga.qq.com/match/2018/pc_game.html?game=speedm
+#  刺激战场
+## 站点地址：http://tga.qq.com/match/2018/pc_game.html?game=pg
