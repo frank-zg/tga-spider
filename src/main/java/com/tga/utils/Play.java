@@ -240,7 +240,7 @@ public class Play implements Runnable {
         headers.put("Referer", uri_index);
         headers.put("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36");
         headers.put("X-Requested-With", "ShockwaveFlash/26.0.0.151");
-        HttpUtil.get("http://live.mobile.video.qq.com/fcgi-bin/live_poll?otype=json&guid=92F883CEAC9A894B6D821E26C42D6B02E5ACE25B&needmark=1&pollDataKey=pid%3D48181%26type%3D&qqlog=&markContext=last%3D0", headers, exceptionStatus, timeout);
+        HttpUtil.get("http://live.mobile.video.qq.com/fcgi-bin/live_poll?otype=json&qqlog=&needmark=1&pollDataKey=pid%3D49841%26type%3D&guid=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&markContext=last%3D0", headers, exceptionStatus, timeout);
     }
 
     /**
