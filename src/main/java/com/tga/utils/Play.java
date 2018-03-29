@@ -43,41 +43,44 @@ public class Play implements Runnable {
         System.out.println(autoIndex.get());
         indexPage();
 
-        kvCommon("sUrl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&progid=124228903&P2PVer=&flashver=WIN&iQQ=408404664&dc=9474&BossId=2583&CheckSum=105821293&sRef=");
+        kvCommon("sUrl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&CheckSum=105821293&progid=124228403&P2PVer=&flashver=WIN&dc=4880&BossId=2583&iQQ=408404664&sRef=");
         kvCommon("step=3&ptag=&iQQ=408404664&flashver=WIN%2029%2E0%2E0%2E113&BossId=3007&guid" +
                 "=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&p2pver=0&Pwd=881273072&fplayerver=30203007&val2=0&vurl" +
-                "=&sid=124228903&val1=0&ctime="+cTimeStr()+"&adid=&val=0&sdtfrom=70202&iTy=3007&surl=http%3A%2F%2Ftga" +
-                "%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&sRef=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&sUrl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&P2PVer=0&sref=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&pid=B97554AA5BEF71719B15515CD1F9CEEDE3DDB23F&tpay=0");
-        kvCommon("=int2=0&str3=&bid=pcvideo&val=100&iTy=2052&iSta=7&itype=50&ver=TencentPlayerLiveV3%2E2%2E3%2E07&str1=&vid=124228903&url=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&str2=1%2E4%2E6&rnd=9997&int1=0&val2=&str4=AAC430D30D0B311D8BE16D7689C7E63C782006C1");
+                "=&sid=124228403&val1=0&ctime="+cTimeStr()+"&adid=&val=0&sdtfrom=70202&iTy=3007&surl=http%3A%2F%2Ftga%2Eqq" +
+                "%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&sRef=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&sUrl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&P2PVer=0&sref=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&pid=AB461DEF47BFFDD3E3256A85A970D462B427513D&tpay=0");
+        kvCommon("str4=AB461DEF47BFFDD3E3256A85A970D462B427513D&int2=0&iSta=7&bid=pcvideo&str2=1%2E4%2E6&str3=&itype=50&val=100&str1=&int1=0&vid=124228403&url=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&iTy=2052&rnd=2531&val2=&ver=TencentPlayerLiveV3%2E2%2E3%2E07");
         kvGetCommon("http://btrace.video.qq.com/kvcollect?sIp=&iQQ=&sBiz=&sOp=&iSta=0&iTy=2481&iFlow=0&sUrl=http%3A" +
                 "%2F%2Ftga.qq.com%2Fmatch%2F2018%2Fpc_game" +
-                ".html%3Fgame%3Dspeedm&sRef=&sPageId=&sPos=&step=3&val=55&val1=2&val2=604&val3=&val4=&val5=&apid" +
-                "=603D8C885C987916BE33941FEB04A8C450D76D2A&pid=AAC430D30D0B311D8BE16D7689C7E63C782006C1&vid=124228903" +
+                ".html%3Fgame%3Dpg&sRef=&sPageId=&sPos=&step=3&val=56&val1=2&val2=604&val3=&val4=&val5=&apid" +
+                "=C9C573A339EED9D2505ADB20E6206FA56664512F&pid=AB461DEF47BFFDD3E3256A85A970D462B427513D&vid=124228403" +
                 "&platform=1&pversion=TencentPlayerLiveV3.2.3.07&version=1.4.6&bi=1&bt=0&idx=0&appid=0&ua=Mozilla" +
                 "%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20" +
                 "(KHTML%2C%20like%20Gecko)%20Chrome%2F63.0.3239.108%20Safari%2F537.36&adtype=0&vurl=http%3A%2F" +
                 "%2Flivew.l.qq.com%2Flivemsg%3Fty%3Dweb%26ad_type%3DLD%7CKB%26rfid%3D%26pf%3Dout%26pt%3D0%26pc%3D0" +
-                "%26vid%3D124228903%26coverid%3D%26live%3D1%26from%3D0%26pu%3D0%26v%3DTencentPlayerLiveV3.2.3.07%26plugin%3D1.4.6%26speed%3D0%26vptag%3D%26pid%3DAAC430D30D0B311D8BE16D7689C7E63C782006C1%26adaptor%3D2%26musictxt%3D%26chid%3D0%26mbid%3D%26guid%3D%26url%3Dhttp%3A%2F%2Ftga.qq.com%2Fmatch%2F2018%2Fpc_game.html%26refer%3D%26st%3D0&reporttime="+cTimeStr()+"&bdua=0&admtype=0&adid=&guid=&ispip=0&random=8619");
-        kvCommon("int2=1&str3=&bid=pcvideo&val=100&iTy=2052&iSta=7&itype=50&ver=TencentPlayerLiveV3%2E2%2E3%2E07&str1=&vid=124228903&url=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&str2=1%2E4%2E6&rnd=7294&int1=0&val2=&str4=AAC430D30D0B311D8BE16D7689C7E63C782006C1");
+                "%26vid%3D124228403%26coverid%3D%26live%3D1%26from%3D0%26pu%3D0%26v%3DTencentPlayerLiveV3.2.3.07%26plugin%3D1.4.6%26speed%3D0%26vptag%3D%26pid%3DAB461DEF47BFFDD3E3256A85A970D462B427513D%26adaptor%3D2%26musictxt%3D%26chid%3D0%26mbid%3D%26guid%3D%26url%3Dhttp%3A%2F%2Ftga.qq.com%2Fmatch%2F2018%2Fpc_game.html%26refer%3D%26st%3D0&reporttime="+cTimeStr()+"&bdua=0&admtype=0&adid=&guid=&ispip=0&random=8798");
+        kvCommon("str4=AB461DEF47BFFDD3E3256A85A970D462B427513D&int2=1&iSta=7&bid=pcvideo&str2=1%2E4%2E6&str3=&itype=50&val=100&str1=&int1=0&vid=124228403&url=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&iTy=2052&rnd=575&val2=&ver=TencentPlayerLiveV3%2E2%2E3%2E07");
         kvCommon("step=7&ptag=&iQQ=408404664&flashver=WIN%2029%2E0%2E0%2E113&BossId=3007&guid" +
                 "=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&p2pver=0&Pwd=881273072&fplayerver=30203007&val2=0&vurl" +
-                "=&sid=124228903&val1=0&ctime="+cTimeStr()+"&adid=&val=0&sdtfrom=70202&iTy=3007&surl=http%3A%2F%2Ftga" +
-                "%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&sRef=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&sUrl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&P2PVer=0&sref=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&pid=AAC430D30D0B311D8BE16D7689C7E63C782006C1&tpay=0");
+                "=&sid=124228403&val1=0&ctime="+cTimeStr()+"&adid=&val=0&sdtfrom=70202&iTy=3007&surl=http%3A%2F%2Ftga" +
+                "%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&sRef=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&sUrl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&P2PVer=0&sref=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&pid=AB461DEF47BFFDD3E3256A85A970D462B427513D&tpay=0");
         kvCommon("step=4&ptag=&iQQ=408404664&flashver=WIN%2029%2E0%2E0%2E113&BossId=3007&guid" +
                 "=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&p2pver=0&Pwd=881273072&fplayerver=30203007&val2=0&vurl" +
-                "=http%3A%2F%2F220%2E170%2E91%2E232%3A8080%2Fvzb%2Etc%2Eqq%2Ecom" +
-                "%2F935910A63068DF4CBC27475052FD2C9612960C869287FD800458A7862A080AF1152C0F94338DEC8FFFEF0D1186A054D3B38F624EB277549DB7BDA8999951EB1A589664C8709F637A815209E10391BFFCD2C9B8882649ECB2%2F124228901%2Eflv%3Fcdncode%3D%252f18907E7BE0798990%252f%26time%3D"+System.currentTimeMillis()/1000+"%26cdn%3Dzijian%26sdtfrom%3Dv210221%26platform%3D70202%26butype%3D21%26scheduleflag%3D1%26buname%3Dqqlive%26vkey%3D935910A63068DF4CBC27475052FD2C9612960C869287FD800458A7862A080AF1152C0F94338DEC8FFFEF0D1186A054D3B38F624EB277549DB7BDA8999951EB1A589664C8709F637A815209E10391BFFCD2C9B8882649ECB2&sid=124228903&val1=0&ctime="+cTimeStr()+"&adid=&val=363&sdtfrom=70202&iTy=3007&surl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&sRef=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&sUrl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&P2PVer=0&sref=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&pid=AAC430D30D0B311D8BE16D7689C7E63C782006C1&tpay=0");
-        kvCommon("plt=1&avr=TencentPlayerLiveV3%2E2%2E3%2E07&cip=&dip=zijian&iTy=2595&cky" +
-                "=0KHTG5cmf7EGa1N9CMxu99mxavGxXdbY6K5jazeM0nHJzJbaUN7RbmdzwXUVDc7LyTQ2aRDEFnFm3CKtKNWro47sL37tnSK6S2R86TyDcca16U8%2D%5Fh3L3SIka%2D1aKi%2DMBLoYQgkSPjpNFn9nDC4o2fNgR7FPGvveCeSTRjT92NlYB5PhzvxazFKwdAtKGS%5FS9pt2AHpeu8TThbpFtOOay5EKRTLBhrGXiw8Qsk2S%2Dip5QekpfyWLOl%2DUhCAD4DZWxxCVQRf4p0VgqMpRioAIGzta%5FZrF%5FXQFN%2D61Ns%5FREpMkkAeRkUIHLjv9iucvmbhwJXi%2D1Q&gid=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&sdt=70202&vky=935910A63068DF4CBC27475052FD2C9612960C869287FD800458A7862A080AF1152C0F94338DEC8FFFEF0D1186A054D3B38F624EB277549DB7BDA8999951EB1A589664C8709F637A815209E10391BFFCD2C9B8882649ECB2&ftime="+System.currentTimeMillis()+"&cnl=124228903&evr=5%2E4&uin=408404664&cts="+System.currentTimeMillis()/1000);
+                "=http%3A%2F%2F218%2E75%2E177%2E102%3A8080%2Fvzb%2Etc%2Eqq%2Ecom" +
+                "%2F44A89432B47D5A32E81792931E8FE6C320B1508E702A1D58275BC05C8B571DEFEEAC7131E3CE8EC78A34D4B893EC4B06140D6C082D9F212883DE87C4A43BB337566410C2E28585D49F492542A9764DD1468AF515CA21D97F%2F124228401%2Eflv%3Fcdncode%3D%252f18907E7BE0798990%252f%26time%3D"+System.currentTimeMillis()/1000+"%26cdn%3Dzijian%26sdtfrom%3Dv210221%26platform%3D70202%26butype%3D21%26scheduleflag%3D1%26buname%3Dqqlive%26vkey%3D44A89432B47D5A32E81792931E8FE6C320B1508E702A1D58275BC05C8B571DEFEEAC7131E3CE8EC78A34D4B893EC4B06140D6C082D9F212883DE87C4A43BB337566410C2E28585D49F492542A9764DD1468AF515CA21D97F&sid=124228403&val1=0&ctime="+cTimeStr()+"&adid=&val=349&sdtfrom=70202&iTy=3007&surl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&sRef=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&sUrl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&P2PVer=0&sref=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&pid=AB461DEF47BFFDD3E3256A85A970D462B427513D&tpay=0");
+        kvCommon("cnl=124228403&ftime="+System
+                .currentTimeMillis()+"&gid=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&evr=5%2E4&iTy=2595&cts="+System
+                .currentTimeMillis()/1000
+                +"&sdt" +
+                "=70202&avr" +
+                "=TencentPlayerLiveV3%2E2%2E3%2E07&cip=&dip=zijian&cky=0V32TJbaWuYGa1N9CMxu99mxavGxXdbY6K5jazeM0nFOVxMEMAtfsC4OOqIok7btNDIUVphA9u3Awa12qpVNaXq2P6CKLmRwH4J8swBAPFuTJbl0ja%5FJ%2D0FjO08EWCfj7Ro%5Fbs2IHxu5b%5FoTBGFApNQ5RYLrO0JsN1pC6TuwnMW1mVTAHpkGbEDLJ5SREvTcycnFsJ7PEoCJ5gUmmNBC%5FqAey5oSPNy1aFYmBEzs1WecXWGrKWigVQssV52%5F9vsBDw%2DnkDHQOCNlZV1p2i%2Dy4TrxACBOcgZVHioZK%5FSDeJ67KmlWQy4pA5IKI3bJk%5FLuJ1xiwA&uin=408404664&vky=44A89432B47D5A32E81792931E8FE6C320B1508E702A1D58275BC05C8B571DEFEEAC7131E3CE8EC78A34D4B893EC4B06140D6C082D9F212883DE87C4A43BB337566410C2E28585D49F492542A9764DD1468AF515CA21D97F&plt=1");
         kvCommon
                 ("step=1100&ptag=&iQQ=408404664&flashver=WIN%2029%2E0%2E0%2E113&BossId=3007&guid" +
                         "=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&p2pver=0&Pwd=881273072&fplayerver=30203007&val2=0" +
-                        "&vurl=http%3A%2F%2Finfo%2Ezb%2Evideo%2Eqq%2Ecom%2F%3Fstream%3D2%26appVer" +
-                        "%3DTencentPlayerLiveV3%2E2%2E3%2E07%26queueStatus%3D0%26host%3Dhttp%253A%252F%252Ftga%2Eqq" +
-                        "%2Ecom%252Fmatch%252F2018%252Fpc%5Fgame%2Ehtml%253Fgame%253Dspeedm%26pla%3D0%26flashver%3D29" +
-                        "%2C0%2C0%2C113%26guid%3DCC85A8B2B63469304FB594CCF649B47EC46F8BC6%26sdtfrom%3D70202" +
-                        "%26livequeue%3D1%26flvtype%3D1%26system%3D0%26txvjsv%3D2%26defn%3D%26cKey" +
-                        "%3D0KHTG5cmf7EGa1N9CMxu99mxavGxXdbY6K5jazeM0nHJzJbaUN7RbmdzwXUVDc7LyTQ2aRDEFnFm3CKtKNWro47sL37tnSK6S2R86TyDcca16U8%2D%5Fh3L3SIka%2D1aKi%2DMBLoYQgkSPjpNFn9nDC4o2fNgR7FPGvveCeSTRjT92NlYB5PhzvxazFKwdAtKGS%5FS9pt2AHpeu8TThbpFtOOay5EKRTLBhrGXiw8Qsk2S%2Dip5QekpfyWLOl%2DUhCAD4DZWxxCVQRf4p0VgqMpRioAIGzta%5FZrF%5FXQFN%2D61Ns%5FREpMkkAeRkUIHLjv9iucvmbhwJXi%2D1Q%26browser%3Dchrome%26encryptVer%3D5%2E4%26vip%5Fstatus%3D0%26cnlid%3D124228903%26cmd%3D2%26rnd%3D984%26fntick%3D0%26defauto%3D1%26rid%3DAAC430D30D0B311D8BE16D7689C7E63C782006C1&sid=124228901&val1=0&ctime="+cTimeStr()+"&adid=&val=152&sdtfrom=70202&iTy=3007&surl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&sRef=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&sUrl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&P2PVer=0&sref=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&pid=AAC430D30D0B311D8BE16D7689C7E63C782006C1&tpay=0");
+                        "&vurl=http%3A%2F%2Finfo%2Ezb%2Evideo%2Eqq%2Ecom%2F%3FappVer%3DTencentPlayerLiveV3%2E2%2E3" +
+                        "%2E07%26queueStatus%3D0%26host%3Dhttp%253A%252F%252Ftga%2Eqq%2Ecom%252Fmatch%252F2018%252Fpc" +
+                        "%5Fgame%2Ehtml%253Fgame%253Dpg%26pla%3D0%26flashver%3D29%2C0%2C0%2C113%26guid" +
+                        "%3DCC85A8B2B63469304FB594CCF649B47EC46F8BC6%26stream%3D2%26livequeue%3D1%26flvtype%3D1" +
+                        "%26txvjsv%3D2%26defn%3D%26cKey%3D0V32TJbaWuYGa1N9CMxu99mxavGxXdbY6K5jazeM0nFOVxMEMAtfsC4OOqIok7btNDIUVphA9u3Awa12qpVNaXq2P6CKLmRwH4J8swBAPFuTJbl0ja%5FJ%2D0FjO08EWCfj7Ro%5Fbs2IHxu5b%5FoTBGFApNQ5RYLrO0JsN1pC6TuwnMW1mVTAHpkGbEDLJ5SREvTcycnFsJ7PEoCJ5gUmmNBC%5FqAey5oSPNy1aFYmBEzs1WecXWGrKWigVQssV52%5F9vsBDw%2DnkDHQOCNlZV1p2i%2Dy4TrxACBOcgZVHioZK%5FSDeJ67KmlWQy4pA5IKI3bJk%5FLuJ1xiwA%26sdtfrom%3D70202%26browser%3Dchrome%26defauto%3D1%26system%3D0%26vip%5Fstatus%3D0%26cnlid%3D124228403%26cmd%3D2%26rnd%3D46%26fntick%3D0%26encryptVer%3D5%2E4%26rid%3DAB461DEF47BFFDD3E3256A85A970D462B427513D&sid=124228401&val1=0&ctime="+cTimeStr()+"&adid=&val=144&sdtfrom=70202&iTy=3007&surl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&sRef=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&sUrl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&P2PVer=0&sref=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&pid=AB461DEF47BFFDD3E3256A85A970D462B427513D&tpay=0");
         //kvCommon("sid=124209001&adid=&iQQ=0&ctime=" + cTimeStr() +
         //        "&surl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2017%2Fpc" +
         //        "%5Fgame%2Ehtml%3Fgame%3Dlol&sdtfrom=70202&sUrl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2017%2Fpc" +
@@ -102,41 +105,45 @@ public class Play implements Runnable {
         }
 
         //开始有规律播放进度
+        kvCommon("Pwd=779660211&ftime="+System.currentTimeMillis()+"&BossId=3460&guid=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&cnlID" +
+                "=124228403&vkey=44A89432B47D5A32E81792931E8FE6C320B1508E702A1D58275BC05C8B571DEFEEAC7131E3CE8EC78A34D4B893EC4B06140D6C082D9F212883DE87C4A43BB337566410C2E28585D49F492542A9764DD1468AF515CA21D97F&platform=1");
         kvCommon("step=6&ptag=&iQQ=408404664&flashver=WIN%2029%2E0%2E0%2E113&BossId=3007&guid" +
                 "=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&p2pver=0&Pwd=881273072&fplayerver=30203007&val2=0&vurl" +
-                "=http%3A%2F%2F220%2E170%2E91%2E232%3A8080%2Fvzb%2Etc%2Eqq%2Ecom" +
-                "%2F935910A63068DF4CBC27475052FD2C9612960C869287FD800458A7862A080AF1152C0F94338DEC8FFFEF0D1186A054D3B38F624EB277549DB7BDA8999951EB1A589664C8709F637A815209E10391BFFCD2C9B8882649ECB2%2F124228901%2Eflv%3Fcdncode%3D%252f18907E7BE0798990%252f%26time%3D"+System.currentTimeMillis()/1000+"%26cdn%3Dzijian%26sdtfrom%3Dv210221%26platform%3D70202%26butype%3D21%26scheduleflag%3D1%26buname%3Dqqlive%26vkey%3D935910A63068DF4CBC27475052FD2C9612960C869287FD800458A7862A080AF1152C0F94338DEC8FFFEF0D1186A054D3B38F624EB277549DB7BDA8999951EB1A589664C8709F637A815209E10391BFFCD2C9B8882649ECB2&sid=124228901&val1=0&ctime="+cTimeStr()+"&adid=&val=635&sdtfrom=70202&iTy=3007&surl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&sRef=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&sUrl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&P2PVer=0&sref=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&pid=AAC430D30D0B311D8BE16D7689C7E63C782006C1&tpay=0");
-        kvCommon("sRef=&app=live&cdn=zijian&progid=124228901&flashver=WIN%2029%2E0%2E0%2E113&adstat=0&str%5Fparam1" +
-                "=zijian&HttpDownlandSpeed=0&cnnPS=0&iQQ=408404664&durl=http%3A%2F%2F220%2E170%2E91%2E232%3A8080" +
-                "%2Fvzb%2Etc%2Eqq%2Ecom%2F935910A63068DF4CBC27475052FD2C9612960C869287FD800458A7862A080AF1152C0F94338DEC8FFFEF0D1186A054D3B38F624EB277549DB7BDA8999951EB1A589664C8709F637A815209E10391BFFCD2C9B8882649ECB2%2F124228901%2Eflv%3Fcdncode%3D%252f18907E7BE0798990%252f%26time%3D"+System.currentTimeMillis()/1000+"%26cdn%3Dzijian%26sdtfrom%3Dv210221%26platform%3D70202%26butype%3D21%26scheduleflag%3D1%26buname%3Dqqlive%26vkey%3D935910A63068DF4CBC27475052FD2C9612960C869287FD800458A7862A080AF1152C0F94338DEC8FFFEF0D1186A054D3B38F624EB277549DB7BDA8999951EB1A589664C8709F637A815209E10391BFFCD2C9B8882649ECB2&HttpDownSum=0&videopos=0&str%5Fparam2=220%2E170%2E91%2E232&UDPDownlandSpeed=0&sBiz=zhibo&sIp=&clientip=&time="+System.currentTimeMillis()+"&sOp=webflash&xserverip=&UpdataSpeed=0&RtmfpInfo=0&iSta=0&progUrl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&PeerConnRate=0&iTy=1991&switch=0&svrCount=0&blockCount=0&UDPUpSum=0&p2pCount=0&viewid=&P2PReDelay=0&fullScreen=0&cmd=205&live%5Ftype=8&SuNodDelay=0&lookback=0&averRemtime=0&pla=1&type=17&blockTime=0&StartP2P=0&errorCode=10000&loadingTime=5&SuperNodeIP=0&guid=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&fullecode=10000&SuperNodePort=0&fplayerver=30203007&prdLength=2&playtime=0&PeerServerIP=0&UDPDownSum=0&downSpeed=61&ispay=0&iFlow=0&averPeerMeHealth=0&maxSpeed=19760&isuserpay=0&CDNAbnormal=0&dsip=220%2E170%2E91%2E232&peerCount=0&livepid=49841&ReqSNBlockOutRange=0&playAd=0&lookbackseq=0&HashNotFinished=0&playNo=AAC430D30D0B311D8BE16D7689C7E63C782006C1&P2PVer=0&seq=0&returnBitmapErr=0&reCnnCount=0&playerOnPlayTime=1028&cnnTime=630&blockHasData=0&PeerServerPort=0&transtype=0");
-        kvCommon("ftime="+System.currentTimeMillis()+"&BossId=3460&guid=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&Pwd=779660211&cnlID" +
-                "=124228903&vkey=935910A63068DF4CBC27475052FD2C9612960C869287FD800458A7862A080AF1152C0F94338DEC8FFFEF0D1186A054D3B38F624EB277549DB7BDA8999951EB1A589664C8709F637A815209E10391BFFCD2C9B8882649ECB2&platform=1");
+                "=http%3A%2F%2F218%2E75%2E177%2E102%3A8080%2Fvzb%2Etc%2Eqq%2Ecom" +
+                "%2F44A89432B47D5A32E81792931E8FE6C320B1508E702A1D58275BC05C8B571DEFEEAC7131E3CE8EC78A34D4B893EC4B06140D6C082D9F212883DE87C4A43BB337566410C2E28585D49F492542A9764DD1468AF515CA21D97F%2F124228401%2Eflv%3Fcdncode%3D%252f18907E7BE0798990%252f%26time%3D"+System.currentTimeMillis()/1000+"%26cdn%3Dzijian%26sdtfrom%3Dv210221%26platform%3D70202%26butype%3D21%26scheduleflag%3D1%26buname%3Dqqlive%26vkey%3D44A89432B47D5A32E81792931E8FE6C320B1508E702A1D58275BC05C8B571DEFEEAC7131E3CE8EC78A34D4B893EC4B06140D6C082D9F212883DE87C4A43BB337566410C2E28585D49F492542A9764DD1468AF515CA21D97F&sid=124228401&val1=0&ctime="+cTimeStr()+"&adid=&val=2291&sdtfrom=70202&iTy=3007&surl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&sRef=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&sUrl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&P2PVer=0&sref=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&pid=AB461DEF47BFFDD3E3256A85A970D462B427513D&tpay=0");
+        kvCommon("sRef=&app=live&cdn=zijian&progid=124228401&flashver=WIN%2029%2E0%2E0%2E113&adstat=0&str%5Fparam1" +
+                "=zijian&HttpDownlandSpeed=0&cnnPS=0&iQQ=408404664&durl=http%3A%2F%2F218%2E75%2E177%2E102%3A8080" +
+                "%2Fvzb%2Etc%2Eqq%2Ecom%2F44A89432B47D5A32E81792931E8FE6C320B1508E702A1D58275BC05C8B571DEFEEAC7131E3CE8EC78A34D4B893EC4B06140D6C082D9F212883DE87C4A43BB337566410C2E28585D49F492542A9764DD1468AF515CA21D97F%2F124228401%2Eflv%3Fcdncode%3D%252f18907E7BE0798990%252f%26time%3D"+System.currentTimeMillis()/1000+"%26cdn%3Dzijian%26sdtfrom%3Dv210221%26platform%3D70202%26butype%3D21%26scheduleflag%3D1%26buname%3Dqqlive%26vkey%3D44A89432B47D5A32E81792931E8FE6C320B1508E702A1D58275BC05C8B571DEFEEAC7131E3CE8EC78A34D4B893EC4B06140D6C082D9F212883DE87C4A43BB337566410C2E28585D49F492542A9764DD1468AF515CA21D97F&HttpDownSum=0&videopos=0&str%5Fparam2=218%2E75%2E177%2E102&UDPDownlandSpeed=0&sBiz=zhibo&UpdataSpeed=0&clientip=&time="+System.currentTimeMillis()+"&sOp=webflash&xserverip=&switch=0&RtmfpInfo=0&iSta=0&progUrl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&PeerConnRate=0&sIp=&svrCount=0&blockCount=0&UDPUpSum=0&p2pCount=0&viewid=&P2PReDelay=0&fullScreen=0&cmd=205&iTy=1991&SuNodDelay=0&lookback=0&averRemtime=0&live%5Ftype=8&pla=1&type=17&blockTime=0&StartP2P=0&errorCode=10000&loadingTime=2134&SuperNodeIP=0&guid=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&fullecode=10000&SuperNodePort=0&fplayerver=30203007&prdLength=3&playtime=0&PeerServerIP=0&UDPDownSum=0&downSpeed=221&ispay=0&iFlow=0&averPeerMeHealth=0&maxSpeed=344&isuserpay=0&CDNAbnormal=0&dsip=218%2E75%2E177%2E102&peerCount=0&livepid=49793&ReqSNBlockOutRange=0&playAd=0&lookbackseq=0&HashNotFinished=0&cnnTime=157&P2PVer=0&seq=0&returnBitmapErr=0&reCnnCount=0&playerOnPlayTime=2680&playNo=AB461DEF47BFFDD3E3256A85A970D462B427513D&blockHasData=0&PeerServerPort=0&transtype=0");
         live_poll();
-        kvCommon("int2=0&str3=&bid=pcvideo&val=100&iTy=2052&iSta=7&itype=52&ver=TencentPlayerLiveV3%2E2%2E3%2E07&str1=&vid=124228901&url=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&str2=1%2E4%2E6&rnd=6569&int1=0&val2=&str4=AAC430D30D0B311D8BE16D7689C7E63C782006C1");
+        kvCommon("Pwd=779660211&ftime="+System.currentTimeMillis()+"&BossId=3460&guid=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&cnlID" +
+                "=124228403&vkey=44A89432B47D5A32E81792931E8FE6C320B1508E702A1D58275BC05C8B571DEFEEAC7131E3CE8EC78A34D4B893EC4B06140D6C082D9F212883DE87C4A43BB337566410C2E28585D49F492542A9764DD1468AF515CA21D97F&platform=1");
         kvGetCommon("http://btrace.video.qq.com/kvcollect?sIp=&iQQ=&sBiz=&sOp=&iSta=0&iTy=2481&iFlow=0&sUrl=http%3A" +
                 "%2F%2Ftga.qq.com%2Fmatch%2F2018%2Fpc_game" +
-                ".html%3Fgame%3Dspeedm&sRef=&sPageId=&sPos=&step=3&val=27&val1=2&val2=604&val3=&val4=&val5=&apid" +
-                "=0F7438EDC0F76CE4DDA447714FBE8491F8CF700F&pid=AAC430D30D0B311D8BE16D7689C7E63C782006C1&vid=124228901" +
+                ".html%3Fgame%3Dpg&sRef=&sPageId=&sPos=&step=3&val=30&val1=2&val2=604&val3=&val4=&val5=&apid" +
+                "=A9AE814C248BB365231EAC27B48A78ED8D7859B7&pid=AB461DEF47BFFDD3E3256A85A970D462B427513D&vid=124228401" +
                 "&platform=1&pversion=TencentPlayerLiveV3.2.3.07&version=1.4.6&bi=1&bt=0&idx=0&appid=0&ua=Mozilla" +
                 "%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20" +
                 "(KHTML%2C%20like%20Gecko)%20Chrome%2F63.0.3239.108%20Safari%2F537.36&adtype=2&vurl=http%3A%2F" +
-                "%2Flivew.l.qq.com%2Flivemsg%3Fty%3Dweb%26ad_type%3DTP%26pf%3Dout%26pt%3D0%26pc%3D0%26vid%3D124228901" +
+                "%2Flivew.l.qq.com%2Flivemsg%3Fty%3Dweb%26ad_type%3DTP%26pf%3Dout%26pt%3D0%26pc%3D0%26vid%3D124228401" +
                 "%26coverid%3D%26live%3D1%26from%3D0%26pu%3D0%26v%3DTencentPlayerLiveV3.2.3.07%26plugin%3D1.4.6" +
-                "%26speed%3D0%26vptag%3D%26pid%3DAAC430D30D0B311D8BE16D7689C7E63C782006C1%26adaptor%3D2%26musictxt%3D" +
+                "%26speed%3D0%26vptag%3D%26pid%3DAB461DEF47BFFDD3E3256A85A970D462B427513D%26adaptor%3D2%26musictxt%3D" +
                 "%26chid%3D0%26mbid%3D%26guid%3D%26url%3Dhttp%3A%2F%2Ftga.qq.com%2Fmatch%2F2018%2Fpc_game" +
-                ".html%26refer%3D&reporttime="+cTimeStr()+"&bdua=0&admtype=0&adid=&guid=&ispip=0&random=6369");
-        kvCommon("int2=1&str3=&bid=pcvideo&val=100&iTy=2052&iSta=7&itype=52&ver=TencentPlayerLiveV3%2E2%2E3%2E07&str1=&vid=124228901&url=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&str2=1%2E4%2E6&rnd=7941&int1=0&val2=&str4=AAC430D30D0B311D8BE16D7689C7E63C782006C1");
+                ".html%26refer%3D&reporttime="+cTimeStr()+"&bdua=0&admtype=0&adid=&guid=&ispip=0&random=9908");
+        kvCommon("str4=AB461DEF47BFFDD3E3256A85A970D462B427513D&int2=0&iSta=7&bid=pcvideo&str2=1%2E4%2E6&str3=&itype=52&val=100&str1=&int1=0&vid=124228401&url=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&iTy=2052&rnd=4743&val2=&ver=TencentPlayerLiveV3%2E2%2E3%2E07");
         kvGetCommon("http://btrace.video.qq.com/kvcollect?sIp=&iQQ=&sBiz=&sOp=&iSta=0&iTy=2481&iFlow=0&sUrl=http%3A" +
                 "%2F%2Ftga.qq.com%2Fmatch%2F2018%2Fpc_game" +
-                ".html%3Fgame%3Dspeedm&sRef=&sPageId=&sPos=&step=3&val=89&val1=2&val2=604&val3=&val4=&val5=&apid" +
-                "=0F7438EDC0F76CE4DDA447714FBE8491F8CF700F&pid=AAC430D30D0B311D8BE16D7689C7E63C782006C1&vid=124228901" +
+                ".html%3Fgame%3Dpg&sRef=&sPageId=&sPos=&step=3&val=85&val1=2&val2=604&val3=&val4=&val5=&apid" +
+                "=A9AE814C248BB365231EAC27B48A78ED8D7859B7&pid=AB461DEF47BFFDD3E3256A85A970D462B427513D&vid=124228401" +
                 "&platform=1&pversion=TencentPlayerLiveV3.2.3.07&version=1.4.6&bi=1&bt=0&idx=1&appid=0&ua=Mozilla" +
                 "%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20" +
                 "(KHTML%2C%20like%20Gecko)%20Chrome%2F63.0.3239.108%20Safari%2F537.36&adtype=2&vurl=http%3A%2F" +
-                "%2Flivew.l.qq.com%2Flivemsg%3Fty%3Dweb%26ad_type%3DTP%26pf%3Dout%26pt%3D0%26pc%3D0%26vid%3D124228901" +
+                "%2Flivew.l.qq.com%2Flivemsg%3Fty%3Dweb%26ad_type%3DTP%26pf%3Dout%26pt%3D0%26pc%3D0%26vid%3D124228401" +
                 "%26coverid%3D%26live%3D1%26from%3D0%26pu%3D0%26v%3DTencentPlayerLiveV3.2.3.07%26plugin%3D1.4.6" +
-                "%26speed%3D0%26vptag%3D%26pid%3DAAC430D30D0B311D8BE16D7689C7E63C782006C1%26adaptor%3D2%26musictxt%3D" +
-                "%26chid%3D0%26mbid%3D%26guid%3D%26url%3Dhttp%3A%2F%2Ftga.qq.com%2Fmatch%2F2018%2Fpc_game.html%26refer%3D%26retry%3D1&reporttime="+cTimeStr()+"&bdua=0&admtype=0&adid=&guid=&ispip=0&random=1709");
+                "%26speed%3D0%26vptag%3D%26pid%3DAB461DEF47BFFDD3E3256A85A970D462B427513D%26adaptor%3D2%26musictxt%3D" +
+                "%26chid%3D0%26mbid%3D%26guid%3D%26url%3Dhttp%3A%2F%2Ftga.qq.com%2Fmatch%2F2018%2Fpc_game" +
+                ".html%26refer%3D%26retry%3D1&reporttime="+cTimeStr
+                ()+"&bdua=0&admtype=0&adid=&guid=&ispip=0&random=9419");
+        kvCommon("str4=AB461DEF47BFFDD3E3256A85A970D462B427513D&int2=1&iSta=7&bid=pcvideo&str2=1%2E4%2E6&str3=&itype=52&val=100&str1=&int1=0&vid=124228401&url=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&iTy=2052&rnd=7275&val2=&ver=TencentPlayerLiveV3%2E2%2E3%2E07");
         try {
             for (int i = 1; i < videoTime; i++) {
                 forEachRequest(i);
@@ -171,18 +178,17 @@ public class Play implements Runnable {
         try {
             live_poll();
             sleep();
-            kvCommon("ftime="+System.currentTimeMillis()+"&BossId=3460&guid=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&Pwd=779660211" +
-                    "&cnlID=124228903&vkey=9F7EB6AA77567229A1B5F255E1106B0C598655A5595E656C3FE58173DD257CEA90F40658AA0F22A0CE5CFD8360C4967CF063751931D96CB57BE485905A667FF4FFC9765C3921124754C15B4026413B1D5CDBC33CA3E8A1DD&platform=1");
+            kvCommon("sRef=&adstat=4&cdn=zijian&progid=124228401&flashver=WIN%2029%2E0%2E0%2E113&app=live&str" +
+                    "%5Fparam1=zijian&HttpDownlandSpeed=0&iQQ=408404664&durl=http%3A%2F%2F218%2E75%2E177%2E102%3A8080" +
+                    "%2Fvzb%2Etc%2Eqq%2Ecom%2F44A89432B47D5A32E81792931E8FE6C320B1508E702A1D58275BC05C8B571DEFEEAC7131E3CE8EC78A34D4B893EC4B06140D6C082D9F212883DE87C4A43BB337566410C2E28585D49F492542A9764DD1468AF515CA21D97F%2F124228401%2Eflv%3Fcdncode%3D%252f18907E7BE0798990%252f%26time%3D"+System.currentTimeMillis()/1000+"%26cdn%3Dzijian%26sdtfrom%3Dv210221%26platform%3D70202%26butype%3D21%26scheduleflag%3D1%26buname%3Dqqlive%26vkey%3D44A89432B47D5A32E81792931E8FE6C320B1508E702A1D58275BC05C8B571DEFEEAC7131E3CE8EC78A34D4B893EC4B06140D6C082D9F212883DE87C4A43BB337566410C2E28585D49F492542A9764DD1468AF515CA21D97F&HttpDownSum=0&UDPDownSum=0&str%5Fparam2=218%2E75%2E177%2E102&UDPDownlandSpeed=0&sBiz=zhibo&sIp=&clientip=&videopos=0&sOp=webflash&xserverip=&switch=0&RtmfpInfo=0&time="+System.currentTimeMillis()+"&progUrl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dpg&PeerConnRate=0&UpdataSpeed=0&iSta=0&blockCount=0&UDPUpSum=0&p2pCount=0&viewid=&svrCount=0&P2PReDelay=0&fullScreen=0&cmd=263&iTy=1991&SuNodDelay=0&lookback=0&averRemtime=0&live%5Ftype=8&pla=1&type=17&blockTime=0&StartP2P=0&errorCode=10000&loadingTime=0&SuperNodeIP=0&guid=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&fullecode=10000&SuperNodePort=0&fplayerver=30203007&prdLength=32&playtime=0&PeerServerIP=0&peerCount=0&downSpeed=326&ispay=0&iFlow=0&averPeerMeHealth=0&maxSpeed=0&isuserpay=0&CDNAbnormal=0&dsip=218%2E75%2E177%2E102&playNo=AB461DEF47BFFDD3E3256A85A970D462B427513D&livepid=49793&ReqSNBlockOutRange=0&playAd=0&lookbackseq=0&HashNotFinished=0&cnnTime=0&P2PVer=0&seq="+seq+"&returnBitmapErr=0&reCnnCount=0&playerOnPlayTime=0&cnnPS=0&blockHasData=0&PeerServerPort=0&transtype=0");
             sleep();
-            kvCommon("sRef=&adstat=4&cdn=zijian&progid=124228901&flashver=WIN%2029%2E0%2E0%2E113&app=live&str" +
-                    "%5Fparam1=zijian&HttpDownlandSpeed=0&iQQ=408404664&durl=http%3A%2F%2F124%2E232%2E155%2E167" +
-                    "%3A8080%2Fvzb%2Etc%2Eqq%2Ecom" +
-                    "%2F9F7EB6AA77567229A1B5F255E1106B0C598655A5595E656C3FE58173DD257CEA90F40658AA0F22A0CE5CFD8360C4967CF063751931D96CB57BE485905A667FF4FFC9765C3921124754C15B4026413B1D5CDBC33CA3E8A1DD%2F124228901%2Eflv%3Fcdncode%3D%252f18907E7BE0798990%252f%26time%3D"+System.currentTimeMillis()/1000+"%26cdn%3Dzijian%26sdtfrom%3Dv210221%26platform%3D70202%26butype%3D21%26scheduleflag%3D1%26buname%3Dqqlive%26vkey%3D9F7EB6AA77567229A1B5F255E1106B0C598655A5595E656C3FE58173DD257CEA90F40658AA0F22A0CE5CFD8360C4967CF063751931D96CB57BE485905A667FF4FFC9765C3921124754C15B4026413B1D5CDBC33CA3E8A1DD&HttpDownSum=0&time="+System.currentTimeMillis()+"&str%5Fparam2=124%2E232%2E155%2E167&UDPDownlandSpeed=0&sBiz=zhibo&UpdataSpeed=0&clientip=&UDPDownSum=0&sOp=webflash&xserverip=&sIp=&RtmfpInfo=0&videopos=0&progUrl=http%3A%2F%2Ftga%2Eqq%2Ecom%2Fmatch%2F2018%2Fpc%5Fgame%2Ehtml%3Fgame%3Dspeedm&PeerConnRate=0&iTy=1991&iSta=0&blockCount=0&UDPUpSum=0&p2pCount=0&viewid=&svrCount=0&P2PReDelay=0&fullScreen=0&cmd=263&live%5Ftype=8&SuNodDelay=0&lookback=0&averRemtime=0&pla=1&type=17&switch=0&StartP2P=0&errorCode=10000&loadingTime=0&SuperNodeIP=0&blockTime=0&guid=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&fullecode=10000&SuperNodePort=0&fplayerver=30203007&prdLength=32&playtime=0&PeerServerIP=0&peerCount=0&downSpeed=308&ispay=0&iFlow=0&averPeerMeHealth=0&maxSpeed=0&isuserpay=0&CDNAbnormal=0&dsip=124%2E232%2E155%2E167&playNo=B97554AA5BEF71719B15515CD1F9CEEDE3DDB23F&livepid=49841&ReqSNBlockOutRange=0&playAd=0&lookbackseq=0&HashNotFinished=0&cnnTime=0&P2PVer=0&seq="+seq+"&returnBitmapErr=0&reCnnCount=0&playerOnPlayTime=0&cnnPS=0&blockHasData=0&PeerServerPort=0&transtype=0");
+            kvCommon("Pwd=779660211&ftime="+System
+                    .currentTimeMillis()+"&BossId=3460&guid=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&cnlID" +
+                    "=124228403&vkey=44A89432B47D5A32E81792931E8FE6C320B1508E702A1D58275BC05C8B571DEFEEAC7131E3CE8EC78A34D4B893EC4B06140D6C082D9F212883DE87C4A43BB337566410C2E28585D49F492542A9764DD1468AF515CA21D97F&platform=1");
             sleep();
             live_poll();
             sleep();
-            kvCommon("ftime="+System.currentTimeMillis()+"&BossId=3460&guid=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&Pwd=779660211" +
-                    "&cnlID=124228903&vkey=9F7EB6AA77567229A1B5F255E1106B0C598655A5595E656C3FE58173DD257CEA90F40658AA0F22A0CE5CFD8360C4967CF063751931D96CB57BE485905A667FF4FFC9765C3921124754C15B4026413B1D5CDBC33CA3E8A1DD&platform=1");
+            kvCommon("Pwd=779660211&ftime=1522325366919&BossId=3460&guid=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&cnlID=124228403&vkey=44A89432B47D5A32E81792931E8FE6C320B1508E702A1D58275BC05C8B571DEFEEAC7131E3CE8EC78A34D4B893EC4B06140D6C082D9F212883DE87C4A43BB337566410C2E28585D49F492542A9764DD1468AF515CA21D97F&platform=1");
             sleep();
         } catch (InterruptedException e) {
 
@@ -240,7 +246,7 @@ public class Play implements Runnable {
         headers.put("Referer", uri_index);
         headers.put("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36");
         headers.put("X-Requested-With", "ShockwaveFlash/26.0.0.151");
-        HttpUtil.get("http://live.mobile.video.qq.com/fcgi-bin/live_poll?otype=json&guid=92F883CEAC9A894B6D821E26C42D6B02E5ACE25B&needmark=1&pollDataKey=pid%3D48181%26type%3D&qqlog=&markContext=last%3D0", headers, exceptionStatus, timeout);
+        HttpUtil.get("http://live.mobile.video.qq.com/fcgi-bin/live_poll?otype=json&needmark=1&qqlog=&guid=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&pollDataKey=pid%3D49793%26type%3D&markContext=last%3D0", headers, exceptionStatus, timeout);
     }
 
     /**
@@ -255,7 +261,7 @@ public class Play implements Runnable {
         String host2 = null;
 
         try {
-            String tmpUrl = videoUri + "&guid=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&refer=http%3A%2F%2Ftga.qq.com%2Fmatch%2F2018%2Fpc_game.html%3Fgame%3Dspeedm&apptype=live";
+            String tmpUrl = videoUri + "&guid=CC85A8B2B63469304FB594CCF649B47EC46F8BC6&refer=http%3A%2F%2Ftga.qq.com%2Fmatch%2F2018%2Fpc_game.html%3Fgame%3Dpg&apptype=live";
             String host = tmpUrl.substring(8);
             host2 = host.substring(0, host.indexOf('/'));
 
