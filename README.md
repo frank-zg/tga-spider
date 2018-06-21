@@ -1,2 +1,2 @@
-#  cfm 5月
-## 站点地址: http://tga.qq.com/match/2018/pc_game.html?game=cfm
+#  index 6月
+## 站点地址: http://tga.qq.com/match/2018/pc_index.html
